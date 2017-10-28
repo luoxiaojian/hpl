@@ -1,0 +1,15 @@
+rm -rf ./bin
+rm -rf ./lib
+rm -rf ./src/auxil/UNKNOWN
+rm -rf ./src/blas/UNKNOWN
+rm -rf ./src/comm/UNKNOWN
+rm -rf ./src/grid/UNKNOWN
+rm -rf ./src/panel/UNKNOWN
+rm -rf ./src/pauxil/UNKNOWN
+rm -rf ./src/pfact/UNKNOWN
+rm -rf ./src/pgesv/UNKNOWN
+rm -rf ./testing/matgen/UNKNOWN
+rm -rf ./testing/pmatgen/UNKNOWN
+rm -rf ./testing/ptest/UNKNOWN
+rm -rf ./testing/ptimer/UNKNOWN
+rm -rf ./testing/timer/UNKNOWN
