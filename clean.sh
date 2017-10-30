@@ -1,5 +1,6 @@
 rm -rf ./bin
 rm -rf ./lib
+rm -rf ./include/UNKNOWN
 rm -rf ./src/auxil/UNKNOWN
 rm -rf ./src/blas/UNKNOWN
 rm -rf ./src/comm/UNKNOWN
