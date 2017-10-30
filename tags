@@ -1,0 +1,729 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	include/hpl_panel.h	/^   double              * A;              \/* ptr to trailing part of A *\/$/;"	m	struct:HPL_S_panel
+A	include/hpl_pgesv.h	/^   double              * A;            \/* pointer to local piece of A *\/$/;"	m	struct:HPL_S_pmat
+Ablock	include/hpl_panel.h	/^   vsip_block_d        * Ablock;                           \/* A block *\/$/;"	m	struct:HPL_S_panel
+Add_	include/hpl_blas.h	190;"	d
+CBLAS_DIAG	include/hpl_blas.h	93;"	d
+CBLAS_INDEX	include/hpl_blas.h	78;"	d
+CBLAS_ORDER	include/hpl_blas.h	80;"	d
+CBLAS_SIDE	include/hpl_blas.h	97;"	d
+CBLAS_TRANSPOSE	include/hpl_blas.h	84;"	d
+CBLAS_UPLO	include/hpl_blas.h	89;"	d
+CblasColMajor	include/hpl_blas.h	82;"	d
+CblasConjTrans	include/hpl_blas.h	87;"	d
+CblasLeft	include/hpl_blas.h	98;"	d
+CblasLower	include/hpl_blas.h	91;"	d
+CblasNoTrans	include/hpl_blas.h	85;"	d
+CblasNonUnit	include/hpl_blas.h	94;"	d
+CblasRight	include/hpl_blas.h	99;"	d
+CblasRowMajor	include/hpl_blas.h	81;"	d
+CblasTrans	include/hpl_blas.h	86;"	d
+CblasUnit	include/hpl_blas.h	95;"	d
+CblasUpper	include/hpl_blas.h	90;"	d
+DINFO	include/hpl_panel.h	/^   double              * DINFO;      \/* ptr to replicated scalar info *\/$/;"	m	struct:HPL_S_panel
+DPIV	include/hpl_panel.h	/^   double              * DPIV;    \/* ptr to replicated jb pivot array *\/$/;"	m	struct:HPL_S_panel
+F77_1_CHAR	include/hpl_blas.h	394;"	d
+F77_1_CHAR	include/hpl_blas.h	403;"	d
+F77_2_CHAR	include/hpl_blas.h	395;"	d
+F77_2_CHAR	include/hpl_blas.h	404;"	d
+F77_3_CHAR	include/hpl_blas.h	396;"	d
+F77_3_CHAR	include/hpl_blas.h	405;"	d
+F77_4_CHAR	include/hpl_blas.h	397;"	d
+F77_4_CHAR	include/hpl_blas.h	406;"	d
+F77_CHAR	include/hpl_blas.h	/^typedef struct { char *cp; F77_INTEGER len; } F77_CHAR;$/;"	t	typeref:struct:__anon4
+F77_CHAR	include/hpl_blas.h	/^typedef struct { char *cp; F77_INTEGER len; } F77_CHAR;$/;"	t	typeref:struct:__anon5
+F77_CHAR	include/hpl_blas.h	357;"	d
+F77_CHAR	include/hpl_blas.h	388;"	d
+F77_CHAR_DECL	include/hpl_blas.h	362;"	d
+F77_CHAR_DECL	include/hpl_blas.h	372;"	d
+F77_CHAR_DECL	include/hpl_blas.h	382;"	d
+F77_CHAR_DECL	include/hpl_blas.h	393;"	d
+F77_INTEGER	include/hpl_blas.h	198;"	d
+F77_INT_DECL	include/hpl_blas.h	409;"	d
+F77_INT_FUN	include/hpl_blas.h	418;"	d
+F77_INT_FUN	include/hpl_blas.h	421;"	d
+F77_MINOUT_DECL	include/hpl_blas.h	414;"	d
+F77_MIN_DECL	include/hpl_blas.h	413;"	d
+F77_SIN_DECL	include/hpl_blas.h	410;"	d
+F77_VINOUT_DECL	include/hpl_blas.h	412;"	d
+F77_VIN_DECL	include/hpl_blas.h	411;"	d
+F77_VOID_FUN	include/hpl_blas.h	417;"	d
+F77_VOID_FUN	include/hpl_blas.h	420;"	d
+F77daxpy	include/hpl_blas.h	246;"	d
+F77daxpy	include/hpl_blas.h	272;"	d
+F77daxpy	include/hpl_blas.h	287;"	d
+F77daxpy	include/hpl_blas.h	313;"	d
+F77daxpy	include/hpl_blas.h	337;"	d
+F77dcopy	include/hpl_blas.h	245;"	d
+F77dcopy	include/hpl_blas.h	271;"	d
+F77dcopy	include/hpl_blas.h	286;"	d
+F77dcopy	include/hpl_blas.h	312;"	d
+F77dcopy	include/hpl_blas.h	336;"	d
+F77dgemm	include/hpl_blas.h	253;"	d
+F77dgemm	include/hpl_blas.h	279;"	d
+F77dgemm	include/hpl_blas.h	294;"	d
+F77dgemm	include/hpl_blas.h	320;"	d
+F77dgemm	include/hpl_blas.h	344;"	d
+F77dgemv	include/hpl_blas.h	249;"	d
+F77dgemv	include/hpl_blas.h	275;"	d
+F77dgemv	include/hpl_blas.h	290;"	d
+F77dgemv	include/hpl_blas.h	316;"	d
+F77dgemv	include/hpl_blas.h	340;"	d
+F77dger	include/hpl_blas.h	251;"	d
+F77dger	include/hpl_blas.h	277;"	d
+F77dger	include/hpl_blas.h	292;"	d
+F77dger	include/hpl_blas.h	318;"	d
+F77dger	include/hpl_blas.h	342;"	d
+F77dscal	include/hpl_blas.h	244;"	d
+F77dscal	include/hpl_blas.h	270;"	d
+F77dscal	include/hpl_blas.h	285;"	d
+F77dscal	include/hpl_blas.h	311;"	d
+F77dscal	include/hpl_blas.h	335;"	d
+F77dswap	include/hpl_blas.h	243;"	d
+F77dswap	include/hpl_blas.h	269;"	d
+F77dswap	include/hpl_blas.h	284;"	d
+F77dswap	include/hpl_blas.h	310;"	d
+F77dswap	include/hpl_blas.h	334;"	d
+F77dtrsm	include/hpl_blas.h	254;"	d
+F77dtrsm	include/hpl_blas.h	280;"	d
+F77dtrsm	include/hpl_blas.h	295;"	d
+F77dtrsm	include/hpl_blas.h	321;"	d
+F77dtrsm	include/hpl_blas.h	345;"	d
+F77dtrsv	include/hpl_blas.h	250;"	d
+F77dtrsv	include/hpl_blas.h	276;"	d
+F77dtrsv	include/hpl_blas.h	291;"	d
+F77dtrsv	include/hpl_blas.h	317;"	d
+F77dtrsv	include/hpl_blas.h	341;"	d
+F77idamax	include/hpl_blas.h	247;"	d
+F77idamax	include/hpl_blas.h	273;"	d
+F77idamax	include/hpl_blas.h	288;"	d
+F77idamax	include/hpl_blas.h	314;"	d
+F77idamax	include/hpl_blas.h	338;"	d
+HPL_1RING	include/hpl_comm.h	/^   HPL_1RING         = 401,                        \/* Increasing ring *\/$/;"	e	enum:__anon6
+HPL_1RING_M	include/hpl_comm.h	/^   HPL_1RING_M       = 402,             \/* Increasing ring (modified) *\/$/;"	e	enum:__anon6
+HPL_2RING	include/hpl_comm.h	/^   HPL_2RING         = 403,                      \/* Increasing 2-ring *\/$/;"	e	enum:__anon6
+HPL_2RING_M	include/hpl_comm.h	/^   HPL_2RING_M       = 404,           \/* Increasing 2-ring (modified) *\/$/;"	e	enum:__anon6
+HPL_2_MPI_TYPE	include/hpl_grid.h	101;"	d
+HPL_AMAX_PTIME	include/hpl_ptimer.h	/^{ HPL_AMAX_PTIME  = 201, HPL_AMIN_PTIME = 202, HPL_SUM_PTIME  = 203 }$/;"	e	enum:__anon2
+HPL_AMIN_PTIME	include/hpl_ptimer.h	/^{ HPL_AMAX_PTIME  = 201, HPL_AMIN_PTIME = 202, HPL_SUM_PTIME  = 203 }$/;"	e	enum:__anon2
+HPL_AUXIL_H	include/hpl_auxil.h	47;"	d
+HPL_BLAS_H	include/hpl_blas.h	47;"	d
+HPL_BLONG	include/hpl_comm.h	/^   HPL_BLONG         = 405,                         \/* long broadcast *\/$/;"	e	enum:__anon6
+HPL_BLONG_M	include/hpl_comm.h	/^   HPL_BLONG_M       = 406               \/* long broadcast (modified) *\/$/;"	e	enum:__anon6
+HPL_C2F_CHAR	include/hpl_blas.h	360;"	d
+HPL_C2F_CHAR	include/hpl_blas.h	391;"	d
+HPL_CALL_FBLAS	include/hpl.h	67;"	d
+HPL_COLUMN_MAJOR	include/hpl_grid.h	/^   HPL_COLUMN_MAJOR  = 202$/;"	e	enum:__anon12
+HPL_COMM_H	include/hpl_comm.h	47;"	d
+HPL_COPY_L	src/comm/HPL_1rinM.c	5;"	d	file:
+HPL_COPY_L	src/comm/HPL_1ring.c	5;"	d	file:
+HPL_COPY_L	src/comm/HPL_2rinM.c	5;"	d	file:
+HPL_COPY_L	src/comm/HPL_2ring.c	5;"	d	file:
+HPL_COPY_L	src/comm/HPL_blonM.c	5;"	d	file:
+HPL_COPY_L	src/comm/HPL_blong.c	5;"	d	file:
+HPL_COPY_L	src/panel/HPL_pdpanel_init.c	5;"	d	file:
+HPL_CPU_PTIME	include/hpl_ptimer.h	/^{  HPL_WALL_PTIME = 101, HPL_CPU_PTIME  = 102 } HPL_T_PTIME;$/;"	e	enum:__anon1
+HPL_CPU_TIME	include/hpl_timer.h	/^{  HPL_WALL_TIME = 101, HPL_CPU_TIME  = 102 } HPL_T_TIME;$/;"	e	enum:__anon7
+HPL_CROUT	include/hpl_gesv.h	/^   HPL_CROUT         = 302,                  \/* Crout lu fact variant *\/$/;"	e	enum:__anon10
+HPL_DIAG	include/hpl_blas.h	/^enum HPL_DIAG$/;"	g
+HPL_DIVFAC	include/hpl_matgen.h	65;"	d
+HPL_DOUBLE	include/hpl_grid.h	/^typedef enum { HPL_INT       = 100, HPL_DOUBLE       = 101 } HPL_T_TYPE;$/;"	e	enum:__anon11
+HPL_F2C_CHAR	include/hpl_blas.h	359;"	d
+HPL_F2C_CHAR	include/hpl_blas.h	370;"	d
+HPL_F2C_CHAR	include/hpl_blas.h	380;"	d
+HPL_F2C_CHAR	include/hpl_blas.h	390;"	d
+HPL_FAILURE	include/hpl_comm.h	74;"	d
+HPL_FALSE	include/hpl_units.h	64;"	d
+HPL_GESV_H	include/hpl_gesv.h	47;"	d
+HPL_GRID_H	include/hpl_grid.h	47;"	d
+HPL_H	include/hpl.h	47;"	d
+HPL_HALF	include/hpl_matgen.h	67;"	d
+HPL_IADD0	include/hpl_matgen.h	63;"	d
+HPL_IADD1	include/hpl_matgen.h	64;"	d
+HPL_INDXG2L_ROUT	include/hpl_units.h	67;"	d
+HPL_INDXG2P_ROUT	include/hpl_units.h	66;"	d
+HPL_INDXL2G_ROUT	include/hpl_units.h	68;"	d
+HPL_INT	include/hpl_grid.h	/^typedef enum { HPL_INT       = 100, HPL_DOUBLE       = 101 } HPL_T_TYPE;$/;"	e	enum:__anon11
+HPL_ISEED	include/hpl_ptest.h	88;"	d
+HPL_KEEP_TESTING	include/hpl_comm.h	76;"	d
+HPL_LACPY_LOG2_M_DEPTH	src/auxil/HPL_dlacpy.c	15;"	d	file:
+HPL_LACPY_LOG2_N_DEPTH	src/auxil/HPL_dlacpy.c	19;"	d	file:
+HPL_LACPY_M_DEPTH	src/auxil/HPL_dlacpy.c	14;"	d	file:
+HPL_LACPY_N_DEPTH	src/auxil/HPL_dlacpy.c	18;"	d	file:
+HPL_LASWP00N_DEPTH	src/pauxil/HPL_dlaswp00N.c	3;"	d	file:
+HPL_LASWP00N_LOG2_DEPTH	src/pauxil/HPL_dlaswp00N.c	4;"	d	file:
+HPL_LASWP01N_DEPTH	src/pauxil/HPL_dlaswp01N.c	3;"	d	file:
+HPL_LASWP01N_LOG2_DEPTH	src/pauxil/HPL_dlaswp01N.c	4;"	d	file:
+HPL_LASWP01T_DEPTH	src/pauxil/HPL_dlaswp01T.c	6;"	d	file:
+HPL_LASWP01T_LOG2_DEPTH	src/pauxil/HPL_dlaswp01T.c	7;"	d	file:
+HPL_LASWP02N_DEPTH	src/pauxil/HPL_dlaswp02N.c	3;"	d	file:
+HPL_LASWP02N_LOG2_DEPTH	src/pauxil/HPL_dlaswp02N.c	4;"	d	file:
+HPL_LASWP03N_DEPTH	src/pauxil/HPL_dlaswp03N.c	3;"	d	file:
+HPL_LASWP03N_LOG2_DEPTH	src/pauxil/HPL_dlaswp03N.c	4;"	d	file:
+HPL_LASWP03T_DEPTH	src/pauxil/HPL_dlaswp03T.c	6;"	d	file:
+HPL_LASWP03T_LOG2_DEPTH	src/pauxil/HPL_dlaswp03T.c	7;"	d	file:
+HPL_LASWP04N_DEPTH	src/pauxil/HPL_dlaswp04N.c	3;"	d	file:
+HPL_LASWP04N_LOG2_DEPTH	src/pauxil/HPL_dlaswp04N.c	4;"	d	file:
+HPL_LASWP04T_DEPTH	src/pauxil/HPL_dlaswp04T.c	6;"	d	file:
+HPL_LASWP04T_LOG2_DEPTH	src/pauxil/HPL_dlaswp04T.c	7;"	d	file:
+HPL_LASWP05N_DEPTH	src/pauxil/HPL_dlaswp05N.c	3;"	d	file:
+HPL_LASWP05N_LOG2_DEPTH	src/pauxil/HPL_dlaswp05N.c	4;"	d	file:
+HPL_LASWP05T_DEPTH	src/pauxil/HPL_dlaswp05T.c	6;"	d	file:
+HPL_LASWP05T_LOG2_DEPTH	src/pauxil/HPL_dlaswp05T.c	7;"	d	file:
+HPL_LASWP06N_DEPTH	src/pauxil/HPL_dlaswp06N.c	6;"	d	file:
+HPL_LASWP06N_LOG2_DEPTH	src/pauxil/HPL_dlaswp06N.c	7;"	d	file:
+HPL_LASWP06T_DEPTH	src/pauxil/HPL_dlaswp06T.c	6;"	d	file:
+HPL_LASWP06T_LOG2_DEPTH	src/pauxil/HPL_dlaswp06T.c	7;"	d	file:
+HPL_LASWP10N_DEPTH	src/pauxil/HPL_dlaswp10N.c	6;"	d	file:
+HPL_LASWP10N_LOG2_DEPTH	src/pauxil/HPL_dlaswp10N.c	7;"	d	file:
+HPL_LATCPY_LOG2_M_DEPTH	src/auxil/HPL_dlatcpy.c	15;"	d	file:
+HPL_LATCPY_LOG2_N_DEPTH	src/auxil/HPL_dlatcpy.c	19;"	d	file:
+HPL_LATCPY_M_DEPTH	src/auxil/HPL_dlatcpy.c	14;"	d	file:
+HPL_LATCPY_N_DEPTH	src/auxil/HPL_dlatcpy.c	18;"	d	file:
+HPL_LEFT_LOOKING	include/hpl_gesv.h	/^   HPL_LEFT_LOOKING  = 301,           \/* Left looking lu fact variant *\/$/;"	e	enum:__anon10
+HPL_LINE_MAX	include/hpl_ptest.h	86;"	d
+HPL_LOCSWP_DEPTH	src/pfact/HPL_dlocswpN.c	6;"	d	file:
+HPL_LOCSWP_DEPTH	src/pfact/HPL_dlocswpT.c	6;"	d	file:
+HPL_LOCSWP_LOG2_DEPTH	src/pfact/HPL_dlocswpN.c	7;"	d	file:
+HPL_LOCSWP_LOG2_DEPTH	src/pfact/HPL_dlocswpT.c	7;"	d	file:
+HPL_MACH_BASE	include/hpl_auxil.h	/^   HPL_MACH_BASE  = 902,                \/* base = base of the machine *\/$/;"	e	enum:__anon9
+HPL_MACH_EMAX	include/hpl_auxil.h	/^   HPL_MACH_EMAX  = 908,          \/* largest exponent before overflow *\/$/;"	e	enum:__anon9
+HPL_MACH_EMIN	include/hpl_auxil.h	/^   HPL_MACH_EMIN  = 906,   \/* min exponent before (gradual) underflow *\/$/;"	e	enum:__anon9
+HPL_MACH_EPS	include/hpl_auxil.h	/^   HPL_MACH_EPS   = 900,                \/* relative machine precision *\/$/;"	e	enum:__anon9
+HPL_MACH_MLEN	include/hpl_auxil.h	/^   HPL_MACH_MLEN  = 904,   \/* number of (base) digits in the mantissa *\/$/;"	e	enum:__anon9
+HPL_MACH_PREC	include/hpl_auxil.h	/^   HPL_MACH_PREC  = 903,                          \/* prec  = eps*base *\/$/;"	e	enum:__anon9
+HPL_MACH_RMAX	include/hpl_auxil.h	/^   HPL_MACH_RMAX  = 909  \/* overflow threshold - (base**emax)*(1-eps) *\/$/;"	e	enum:__anon9
+HPL_MACH_RMIN	include/hpl_auxil.h	/^   HPL_MACH_RMIN  = 907,        \/* underflow threshold base**(emin-1) *\/$/;"	e	enum:__anon9
+HPL_MACH_RND	include/hpl_auxil.h	/^   HPL_MACH_RND   = 905,        \/* 1.0 if rounding occurs in addition *\/$/;"	e	enum:__anon9
+HPL_MACH_SFMIN	include/hpl_auxil.h	/^   HPL_MACH_SFMIN = 901, \/* safe minimum st 1\/sfmin does not overflow *\/$/;"	e	enum:__anon9
+HPL_MATGEN_H	include/hpl_matgen.h	47;"	d
+HPL_MAXRNAME	include/hpl_units.h	61;"	d
+HPL_MAXROUT	include/hpl_units.h	60;"	d
+HPL_MAX_PARAM	include/hpl_ptest.h	87;"	d
+HPL_MISC_H	include/hpl_misc.h	2;"	d
+HPL_MULT0	include/hpl_matgen.h	61;"	d
+HPL_MULT1	include/hpl_matgen.h	62;"	d
+HPL_NORM_1	include/hpl_auxil.h	/^{ HPL_NORM_A = 800, HPL_NORM_1 = 801, HPL_NORM_I = 802 } HPL_T_NORM;$/;"	e	enum:__anon8
+HPL_NORM_A	include/hpl_auxil.h	/^{ HPL_NORM_A = 800, HPL_NORM_1 = 801, HPL_NORM_I = 802 } HPL_T_NORM;$/;"	e	enum:__anon8
+HPL_NORM_I	include/hpl_auxil.h	/^{ HPL_NORM_A = 800, HPL_NORM_1 = 801, HPL_NORM_I = 802 } HPL_T_NORM;$/;"	e	enum:__anon8
+HPL_NO_COPY_L	include/hpl.h	58;"	d
+HPL_NO_DETAILED_TIMING	include/hpl.h	62;"	d
+HPL_NO_SWP	include/hpl_pgesv.h	/^   HPL_NO_SWP        = 499$/;"	e	enum:__anon3
+HPL_NPTIMER	include/hpl_ptimer.h	59;"	d
+HPL_NTIMER	include/hpl_timer.h	59;"	d
+HPL_NUMROCI_ROUT	include/hpl_units.h	70;"	d
+HPL_NUMROC_ROUT	include/hpl_units.h	69;"	d
+HPL_ORDER	include/hpl_blas.h	/^enum HPL_ORDER$/;"	g
+HPL_PANEL_H	include/hpl_panel.h	47;"	d
+HPL_PAUXIL_H	include/hpl_pauxil.h	47;"	d
+HPL_PFACT_H	include/hpl_pfact.h	47;"	d
+HPL_PGESV_H	include/hpl_pgesv.h	47;"	d
+HPL_PMATGEN_H	include/hpl_pmatgen.h	47;"	d
+HPL_PMISC_H	include/hpl_pmisc.h	47;"	d
+HPL_POW16	include/hpl_matgen.h	66;"	d
+HPL_PTEST_H	include/hpl_ptest.h	47;"	d
+HPL_PTIMER_ERROR	include/hpl_ptimer.h	61;"	d
+HPL_PTIMER_H	include/hpl_ptimer.h	47;"	d
+HPL_PTIMER_STARTFLAG	include/hpl_ptimer.h	60;"	d
+HPL_PTR	include/hpl_misc.h	52;"	d
+HPL_RIGHT_LOOKING	include/hpl_gesv.h	/^   HPL_RIGHT_LOOKING = 303           \/* Right looking lu fact variant *\/$/;"	e	enum:__anon10
+HPL_ROW_MAJOR	include/hpl_grid.h	/^   HPL_ROW_MAJOR     = 201,$/;"	e	enum:__anon12
+HPL_SIDE	include/hpl_blas.h	/^enum HPL_SIDE$/;"	g
+HPL_SUCCESS	include/hpl_comm.h	75;"	d
+HPL_SUM_PTIME	include/hpl_ptimer.h	/^{ HPL_AMAX_PTIME  = 201, HPL_AMIN_PTIME = 202, HPL_SUM_PTIME  = 203 }$/;"	e	enum:__anon2
+HPL_SWAP00	include/hpl_pgesv.h	/^   HPL_SWAP00        = 451,                      \/* Use HPL_pdlaswp00 *\/$/;"	e	enum:__anon3
+HPL_SWAP01	include/hpl_pgesv.h	/^   HPL_SWAP01        = 452,                      \/* Use HPL_pdlaswp01 *\/$/;"	e	enum:__anon3
+HPL_SW_MIX	include/hpl_pgesv.h	/^   HPL_SW_MIX        = 453, \/* Use HPL_pdlaswp00_ for small number of *\/$/;"	e	enum:__anon3
+HPL_S_grid	include/hpl_grid.h	/^typedef struct HPL_S_grid$/;"	s
+HPL_S_palg	include/hpl_pgesv.h	/^typedef struct HPL_S_palg$/;"	s
+HPL_S_panel	include/hpl_panel.h	/^typedef struct HPL_S_panel$/;"	s
+HPL_S_pmat	include/hpl_pgesv.h	/^typedef struct HPL_S_pmat$/;"	s
+HPL_S_test	include/hpl_ptest.h	/^typedef struct HPL_S_test$/;"	s
+HPL_TEST_H	include/hpl_test.h	47;"	d
+HPL_TIMER_ERROR	include/hpl_timer.h	61;"	d
+HPL_TIMER_H	include/hpl_timer.h	47;"	d
+HPL_TIMER_STARTFLAG	include/hpl_timer.h	60;"	d
+HPL_TIMING_BEG	include/hpl_ptest.h	95;"	d
+HPL_TIMING_LASWP	include/hpl_ptest.h	101;"	d
+HPL_TIMING_MXSWP	include/hpl_ptest.h	99;"	d
+HPL_TIMING_N	include/hpl_ptest.h	96;"	d
+HPL_TIMING_PFACT	include/hpl_ptest.h	98;"	d
+HPL_TIMING_PTRSV	include/hpl_ptest.h	102;"	d
+HPL_TIMING_RPFACT	include/hpl_ptest.h	97;"	d
+HPL_TIMING_UPDATE	include/hpl_ptest.h	100;"	d
+HPL_TRANS	include/hpl_blas.h	/^enum HPL_TRANS$/;"	g
+HPL_TRUE	include/hpl_units.h	63;"	d
+HPL_T_FACT	include/hpl_gesv.h	/^} HPL_T_FACT;$/;"	t	typeref:enum:__anon10
+HPL_T_MACH	include/hpl_auxil.h	/^} HPL_T_MACH;$/;"	t	typeref:enum:__anon9
+HPL_T_NORM	include/hpl_auxil.h	/^{ HPL_NORM_A = 800, HPL_NORM_1 = 801, HPL_NORM_I = 802 } HPL_T_NORM;$/;"	t	typeref:enum:__anon8
+HPL_T_OP	include/hpl_grid.h	/^typedef void (*HPL_T_OP)$/;"	t
+HPL_T_ORDER	include/hpl_grid.h	/^} HPL_T_ORDER;$/;"	t	typeref:enum:__anon12
+HPL_T_PFA_FUN	include/hpl_pfact.h	/^typedef void (*HPL_T_PFA_FUN)$/;"	t
+HPL_T_PTIME	include/hpl_ptimer.h	/^{  HPL_WALL_PTIME = 101, HPL_CPU_PTIME  = 102 } HPL_T_PTIME;$/;"	t	typeref:enum:__anon1
+HPL_T_PTIME_OP	include/hpl_ptimer.h	/^HPL_T_PTIME_OP;$/;"	t	typeref:enum:__anon2
+HPL_T_RFA_FUN	include/hpl_pfact.h	/^typedef void (*HPL_T_RFA_FUN)$/;"	t
+HPL_T_SWAP	include/hpl_pgesv.h	/^} HPL_T_SWAP;$/;"	t	typeref:enum:__anon3
+HPL_T_TIME	include/hpl_timer.h	/^{  HPL_WALL_TIME = 101, HPL_CPU_TIME  = 102 } HPL_T_TIME;$/;"	t	typeref:enum:__anon7
+HPL_T_TOP	include/hpl_comm.h	/^} HPL_T_TOP;$/;"	t	typeref:enum:__anon6
+HPL_T_TYPE	include/hpl_grid.h	/^typedef enum { HPL_INT       = 100, HPL_DOUBLE       = 101 } HPL_T_TYPE;$/;"	t	typeref:enum:__anon11
+HPL_T_UPD_FUN	include/hpl_pfact.h	/^typedef void (*HPL_T_UPD_FUN)$/;"	t
+HPL_T_grid	include/hpl_grid.h	/^} HPL_T_grid;$/;"	t	typeref:struct:HPL_S_grid
+HPL_T_palg	include/hpl_pgesv.h	/^} HPL_T_palg;$/;"	t	typeref:struct:HPL_S_palg
+HPL_T_panel	include/hpl_panel.h	/^} HPL_T_panel;$/;"	t	typeref:struct:HPL_S_panel
+HPL_T_pmat	include/hpl_pgesv.h	/^} HPL_T_pmat;$/;"	t	typeref:struct:HPL_S_pmat
+HPL_T_test	include/hpl_ptest.h	/^} HPL_T_test;$/;"	t	typeref:struct:HPL_S_test
+HPL_UNITS_H	include/hpl_units.h	47;"	d
+HPL_UPLO	include/hpl_blas.h	/^enum HPL_UPLO$/;"	g
+HPL_USE_F77_INTEGER_DEF	include/hpl_blas.h	200;"	d
+HPL_USE_MPI_DATATYPE	include/hpl.h	54;"	d
+HPL_WALL_PTIME	include/hpl_ptimer.h	/^{  HPL_WALL_PTIME = 101, HPL_CPU_PTIME  = 102 } HPL_T_PTIME;$/;"	e	enum:__anon1
+HPL_WALL_TIME	include/hpl_timer.h	/^{  HPL_WALL_TIME = 101, HPL_CPU_TIME  = 102 } HPL_T_TIME;$/;"	e	enum:__anon7
+HPL_abort	src/auxil/HPL_abort.c	/^void HPL_abort(int LINE, const char* SRNAME, const char* FORM, ...) {$/;"	f
+HPL_all_reduce	src/grid/HPL_all_reduce.c	/^int HPL_all_reduce(void* BUFFER, const int COUNT, const HPL_T_TYPE DTYPE,$/;"	f
+HPL_barrier	src/grid/HPL_barrier.c	/^int HPL_barrier(MPI_Comm COMM) {$/;"	f
+HPL_bcast	src/comm/HPL_bcast.c	/^int HPL_bcast(HPL_T_panel* PANEL, int* IFLAG) {$/;"	f
+HPL_bcast_1rinM	src/comm/HPL_1rinM.c	/^int HPL_bcast_1rinM(HPL_T_panel *PANEL, int *IFLAG) {$/;"	f
+HPL_bcast_1ring	src/comm/HPL_1ring.c	/^int HPL_bcast_1ring(HPL_T_panel *PANEL, int *IFLAG) {$/;"	f
+HPL_bcast_2rinM	src/comm/HPL_2rinM.c	/^int HPL_bcast_2rinM(HPL_T_panel *PANEL, int *IFLAG) {$/;"	f
+HPL_bcast_2ring	src/comm/HPL_2ring.c	/^int HPL_bcast_2ring(HPL_T_panel *PANEL, int *IFLAG) {$/;"	f
+HPL_bcast_blonM	src/comm/HPL_blonM.c	/^int HPL_bcast_blonM(HPL_T_panel *PANEL, int *IFLAG) {$/;"	f
+HPL_bcast_blong	src/comm/HPL_blong.c	/^int HPL_bcast_blong(HPL_T_panel *PANEL, int *IFLAG) {$/;"	f
+HPL_binit	src/comm/HPL_binit.c	/^int HPL_binit(HPL_T_panel* PANEL) {$/;"	f
+HPL_binit_1rinM	src/comm/HPL_1rinM.c	/^int HPL_binit_1rinM(HPL_T_panel *PANEL) {$/;"	f
+HPL_binit_1ring	src/comm/HPL_1ring.c	/^int HPL_binit_1ring(HPL_T_panel *PANEL) {$/;"	f
+HPL_binit_2rinM	src/comm/HPL_2rinM.c	/^int HPL_binit_2rinM(HPL_T_panel *PANEL) {$/;"	f
+HPL_binit_2ring	src/comm/HPL_2ring.c	/^int HPL_binit_2ring(HPL_T_panel *PANEL) {$/;"	f
+HPL_binit_blonM	src/comm/HPL_blonM.c	/^int HPL_binit_blonM(HPL_T_panel *PANEL) {$/;"	f
+HPL_binit_blong	src/comm/HPL_blong.c	/^int HPL_binit_blong(HPL_T_panel *PANEL) {$/;"	f
+HPL_broadcast	src/grid/HPL_broadcast.c	/^int HPL_broadcast(void* BUFFER, const int COUNT, const HPL_T_TYPE DTYPE,$/;"	f
+HPL_bwait	src/comm/HPL_bwait.c	/^int HPL_bwait(HPL_T_panel* PANEL) {$/;"	f
+HPL_bwait_1rinM	src/comm/HPL_1rinM.c	/^int HPL_bwait_1rinM(HPL_T_panel *PANEL) {$/;"	f
+HPL_bwait_1ring	src/comm/HPL_1ring.c	/^int HPL_bwait_1ring(HPL_T_panel *PANEL) {$/;"	f
+HPL_bwait_2rinM	src/comm/HPL_2rinM.c	/^int HPL_bwait_2rinM(HPL_T_panel *PANEL) {$/;"	f
+HPL_bwait_2ring	src/comm/HPL_2ring.c	/^int HPL_bwait_2ring(HPL_T_panel *PANEL) {$/;"	f
+HPL_bwait_blonM	src/comm/HPL_blonM.c	/^int HPL_bwait_blonM(HPL_T_panel *PANEL) {$/;"	f
+HPL_bwait_blong	src/comm/HPL_blong.c	/^int HPL_bwait_blong(HPL_T_panel *PANEL) {$/;"	f
+HPL_copyL	src/comm/HPL_copyL.c	/^void HPL_copyL(HPL_T_panel* PANEL) {$/;"	f
+HPL_daxpy	include/hpl_blas.h	164;"	d
+HPL_daxpy	src/blas/HPL_daxpy.c	/^void HPL_daxpy(const int N, const double ALPHA, const double* X, const int INCX,$/;"	f
+HPL_dcopy	include/hpl_blas.h	163;"	d
+HPL_dcopy	src/blas/HPL_dcopy.c	/^void HPL_dcopy(const int N, const double* X, const int INCX, double* Y,$/;"	f
+HPL_dgemm	include/hpl_blas.h	172;"	d
+HPL_dgemm	src/blas/HPL_dgemm.c	/^void HPL_dgemm(const enum HPL_ORDER ORDER, const enum HPL_TRANS TRANSA,$/;"	f
+HPL_dgemm0	src/blas/HPL_dgemm.c	/^static void HPL_dgemm0(const enum HPL_TRANS TRANSA, const enum HPL_TRANS TRANSB,$/;"	f	file:
+HPL_dgemmNN	src/blas/HPL_dgemm.c	/^static void HPL_dgemmNN(const int M, const int N, const int K,$/;"	f	file:
+HPL_dgemmNT	src/blas/HPL_dgemm.c	/^static void HPL_dgemmNT(const int M, const int N, const int K,$/;"	f	file:
+HPL_dgemmTN	src/blas/HPL_dgemm.c	/^static void HPL_dgemmTN(const int M, const int N, const int K,$/;"	f	file:
+HPL_dgemmTT	src/blas/HPL_dgemm.c	/^static void HPL_dgemmTT(const int M, const int N, const int K,$/;"	f	file:
+HPL_dgemv	include/hpl_blas.h	168;"	d
+HPL_dgemv	src/blas/HPL_dgemv.c	/^void HPL_dgemv(const enum HPL_ORDER ORDER, const enum HPL_TRANS TRANS,$/;"	f
+HPL_dgemv0	src/blas/HPL_dgemv.c	/^static void HPL_dgemv0(const enum HPL_TRANS TRANS, const int M, const int N,$/;"	f	file:
+HPL_dger	include/hpl_blas.h	170;"	d
+HPL_dger	src/blas/HPL_dger.c	/^void HPL_dger(const enum HPL_ORDER ORDER, const int M, const int N,$/;"	f
+HPL_dipow	src/auxil/HPL_dlamch.c	/^static double HPL_dipow(const double X, const int N) {$/;"	f	file:
+HPL_dlacpy	src/auxil/HPL_dlacpy.c	/^void HPL_dlacpy(const int M, const int N, const double* A, const int LDA,$/;"	f
+HPL_dlamc1	src/auxil/HPL_dlamch.c	/^static void HPL_dlamc1(int *BETA, int *T, int *RND, int *IEEE1) {$/;"	f	file:
+HPL_dlamc2	src/auxil/HPL_dlamch.c	/^static void HPL_dlamc2(int *BETA, int *T, int *RND, double *EPS, int *EMIN,$/;"	f	file:
+HPL_dlamc3	src/auxil/HPL_dlamch.c	/^static double HPL_dlamc3(const double A, const double B) {$/;"	f	file:
+HPL_dlamc4	src/auxil/HPL_dlamch.c	/^static void HPL_dlamc4(int *EMIN, const double START, const int BASE) {$/;"	f	file:
+HPL_dlamc5	src/auxil/HPL_dlamch.c	/^static void HPL_dlamc5(const int BETA, const int P, const int EMIN,$/;"	f	file:
+HPL_dlamch	src/auxil/HPL_dlamch.c	/^double HPL_dlamch(const HPL_T_MACH CMACH) {$/;"	f
+HPL_dlange	src/auxil/HPL_dlange.c	/^double HPL_dlange(const HPL_T_NORM NORM, const int M, const int N,$/;"	f
+HPL_dlaprnt	src/auxil/HPL_dlaprnt.c	/^void HPL_dlaprnt(const int M, const int N, double* A, const int IA,$/;"	f
+HPL_dlaswp00N	src/pauxil/HPL_dlaswp00N.c	/^void HPL_dlaswp00N(const int M, const int N, double* A, const int LDA,$/;"	f
+HPL_dlaswp01N	src/pauxil/HPL_dlaswp01N.c	/^void HPL_dlaswp01N(const int M, const int N, double* A, const int LDA,$/;"	f
+HPL_dlaswp01T	src/pauxil/HPL_dlaswp01T.c	/^void HPL_dlaswp01T(const int M, const int N, double* A, const int LDA,$/;"	f
+HPL_dlaswp02N	src/pauxil/HPL_dlaswp02N.c	/^void HPL_dlaswp02N(const int M, const int N, const double* A, const int LDA,$/;"	f
+HPL_dlaswp03N	src/pauxil/HPL_dlaswp03N.c	/^void HPL_dlaswp03N$/;"	f
+HPL_dlaswp03T	src/pauxil/HPL_dlaswp03T.c	/^void HPL_dlaswp03T(const int M, const int N, double* U, const int LDU,$/;"	f
+HPL_dlaswp04N	src/pauxil/HPL_dlaswp04N.c	/^void HPL_dlaswp04N(const int M0, const int M1, const int N, double* U,$/;"	f
+HPL_dlaswp04T	src/pauxil/HPL_dlaswp04T.c	/^void HPL_dlaswp04T(const int M0, const int M1, const int N, double* U,$/;"	f
+HPL_dlaswp05N	src/pauxil/HPL_dlaswp05N.c	/^void HPL_dlaswp05N(const int M, const int N, double* A, const int LDA,$/;"	f
+HPL_dlaswp05T	src/pauxil/HPL_dlaswp05T.c	/^void HPL_dlaswp05T(const int M, const int N, double* A, const int LDA,$/;"	f
+HPL_dlaswp06N	src/pauxil/HPL_dlaswp06N.c	/^void HPL_dlaswp06N(const int M, const int N, double* A, const int LDA,$/;"	f
+HPL_dlaswp06T	src/pauxil/HPL_dlaswp06T.c	/^void HPL_dlaswp06T(const int M, const int N, double* A, const int LDA,$/;"	f
+HPL_dlaswp10N	src/pauxil/HPL_dlaswp10N.c	/^void HPL_dlaswp10N(const int M, const int N, double* A, const int LDA,$/;"	f
+HPL_dlatcpy	src/auxil/HPL_dlatcpy.c	/^void HPL_dlatcpy(const int M, const int N, const double* A, const int LDA,$/;"	f
+HPL_dlocmax	src/pfact/HPL_dlocmax.c	/^void HPL_dlocmax(HPL_T_panel* PANEL, const int N, const int II, const int JJ,$/;"	f
+HPL_dlocswpN	src/pfact/HPL_dlocswpN.c	/^void HPL_dlocswpN(HPL_T_panel* PANEL, const int II, const int JJ,$/;"	f
+HPL_dlocswpT	src/pfact/HPL_dlocswpT.c	/^void HPL_dlocswpT(HPL_T_panel* PANEL, const int II, const int JJ,$/;"	f
+HPL_dmatgen	testing/matgen/HPL_dmatgen.c	/^void HPL_dmatgen(const int M, const int N, double* A, const int LDA,$/;"	f
+HPL_dscal	include/hpl_blas.h	165;"	d
+HPL_dscal	src/blas/HPL_dscal.c	/^void HPL_dscal(const int N, const double ALPHA, double *X, const int INCX) {$/;"	f
+HPL_dswap	include/hpl_blas.h	162;"	d
+HPL_dswap	src/blas/HPL_dswap.c	/^void HPL_dswap(const int N, double* X, const int INCX, double* Y,$/;"	f
+HPL_dtrsm	include/hpl_blas.h	173;"	d
+HPL_dtrsm	src/blas/HPL_dtrsm.c	/^void HPL_dtrsm(const enum HPL_ORDER ORDER, const enum HPL_SIDE SIDE,$/;"	f
+HPL_dtrsm0	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsm0(const enum HPL_SIDE SIDE, const enum HPL_UPLO UPLO,$/;"	f	file:
+HPL_dtrsmLLNN	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmLLNN(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmLLNU	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmLLNU(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmLLTN	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmLLTN(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmLLTU	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmLLTU(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmLUNN	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmLUNN(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmLUNU	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmLUNU(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmLUTN	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmLUTN(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmLUTU	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmLUTU(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmRLNN	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmRLNN(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmRLNU	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmRLNU(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmRLTN	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmRLTN(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmRLTU	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmRLTU(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmRUNN	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmRUNN(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmRUNU	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmRUNU(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmRUTN	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmRUTN(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsmRUTU	src/blas/HPL_dtrsm.c	/^static void HPL_dtrsmRUTU(const int M, const int N, const double ALPHA,$/;"	f	file:
+HPL_dtrsv	include/hpl_blas.h	169;"	d
+HPL_dtrsv	src/blas/HPL_dtrsv.c	/^void HPL_dtrsv(const enum HPL_ORDER ORDER, const enum HPL_UPLO UPLO,$/;"	f
+HPL_dtrsv0	src/blas/HPL_dtrsv.c	/^static void HPL_dtrsv0(const enum HPL_UPLO UPLO, const enum HPL_TRANS TRANS,$/;"	f	file:
+HPL_dtrsvLNN	src/blas/HPL_dtrsv.c	/^static void HPL_dtrsvLNN(const int N, const double* A, const int LDA, double* X,$/;"	f	file:
+HPL_dtrsvLNU	src/blas/HPL_dtrsv.c	/^static void HPL_dtrsvLNU(const int N, const double* A, const int LDA, double* X,$/;"	f	file:
+HPL_dtrsvLTN	src/blas/HPL_dtrsv.c	/^static void HPL_dtrsvLTN(const int N, const double* A, const int LDA, double* X,$/;"	f	file:
+HPL_dtrsvLTU	src/blas/HPL_dtrsv.c	/^static void HPL_dtrsvLTU(const int N, const double* A, const int LDA, double* X,$/;"	f	file:
+HPL_dtrsvUNN	src/blas/HPL_dtrsv.c	/^static void HPL_dtrsvUNN(const int N, const double* A, const int LDA, double* X,$/;"	f	file:
+HPL_dtrsvUNU	src/blas/HPL_dtrsv.c	/^static void HPL_dtrsvUNU(const int N, const double* A, const int LDA, double* X,$/;"	f	file:
+HPL_dtrsvUTN	src/blas/HPL_dtrsv.c	/^static void HPL_dtrsvUTN(const int N, const double* A, const int LDA, double* X,$/;"	f	file:
+HPL_dtrsvUTU	src/blas/HPL_dtrsv.c	/^static void HPL_dtrsvUTU(const int N, const double* A, const int LDA, double* X,$/;"	f	file:
+HPL_equil	src/pgesv/HPL_equil.c	/^void HPL_equil(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL,$/;"	f
+HPL_fprintf	src/auxil/HPL_fprintf.c	/^void HPL_fprintf(FILE* STREAM, const char* FORM, ...) {$/;"	f
+HPL_grid_exit	src/grid/HPL_grid_exit.c	/^int HPL_grid_exit(HPL_T_grid* GRID) {$/;"	f
+HPL_grid_info	src/grid/HPL_grid_info.c	/^int HPL_grid_info(const HPL_T_grid* GRID, int* NPROW, int* NPCOL, int* MYROW,$/;"	f
+HPL_grid_init	src/grid/HPL_grid_init.c	/^int HPL_grid_init(MPI_Comm COMM, const HPL_T_ORDER ORDER, const int NPROW,$/;"	f
+HPL_idamax	include/hpl_blas.h	166;"	d
+HPL_idamax	src/blas/HPL_idamax.c	/^int HPL_idamax(const int N, const double* X, const int INCX) {$/;"	f
+HPL_indxg2l	src/pauxil/HPL_indxg2l.c	/^int HPL_indxg2l(const int IG, const int INB, const int NB, const int SRCPROC,$/;"	f
+HPL_indxg2lp	src/pauxil/HPL_indxg2lp.c	/^void HPL_indxg2lp$/;"	f
+HPL_indxg2p	src/pauxil/HPL_indxg2p.c	/^int HPL_indxg2p(const int IG, const int INB, const int NB, const int SRCPROC,$/;"	f
+HPL_indxl2g	src/pauxil/HPL_indxl2g.c	/^int HPL_indxl2g(const int IL, const int INB, const int NB, const int PROC,$/;"	f
+HPL_infog2l	src/pauxil/HPL_infog2l.c	/^void HPL_infog2l(int I, int J, const int IMB, const int MB, const int INB,$/;"	f
+HPL_jumpit	testing/matgen/HPL_jumpit.c	/^void HPL_jumpit(int* MULT, int* IADD, int* IRANN, int* IRANM) {$/;"	f
+HPL_ladd	testing/matgen/HPL_ladd.c	/^void HPL_ladd(int* J, int* K, int* I) {$/;"	f
+HPL_lmul	testing/matgen/HPL_lmul.c	/^void HPL_lmul(int* K, int* J, int* I) {$/;"	f
+HPL_logsort	src/pgesv/HPL_logsort.c	/^void HPL_logsort(const int NPROCS, const int ICURROC, int* IPLEN, int* IPMAP,$/;"	f
+HPL_max	src/grid/HPL_max.c	/^void HPL_max(const int N, const void *IN, void *INOUT, const HPL_T_TYPE DTYPE) {$/;"	f
+HPL_min	src/grid/HPL_min.c	/^void HPL_min(const int N, const void *IN, void *INOUT, const HPL_T_TYPE DTYPE) {$/;"	f
+HPL_numroc	src/pauxil/HPL_numroc.c	/^int HPL_numroc(const int N, const int INB, const int NB, const int PROC,$/;"	f
+HPL_numrocI	src/pauxil/HPL_numrocI.c	/^int HPL_numrocI(const int N, const int I, const int INB, const int NB,$/;"	f
+HPL_pabort	src/pauxil/HPL_pabort.c	/^void HPL_pabort(int LINE, const char* SRNAME, const char* FORM, ...) {$/;"	f
+HPL_packL	src/comm/HPL_packL.c	/^int HPL_packL(HPL_T_panel *PANEL, const int INDEX, const int LEN,$/;"	f
+HPL_pdfact	src/pfact/HPL_pdfact.c	/^void HPL_pdfact(HPL_T_panel *PANEL) {$/;"	f
+HPL_pdgesv	src/pgesv/HPL_pdgesv.c	/^void HPL_pdgesv(HPL_T_grid* GRID, HPL_T_palg* ALGO, HPL_T_pmat* A) {$/;"	f
+HPL_pdgesv0	src/pgesv/HPL_pdgesv0.c	/^void HPL_pdgesv0(HPL_T_grid *GRID, HPL_T_palg *ALGO, HPL_T_pmat *A) {$/;"	f
+HPL_pdgesvK1	src/pgesv/HPL_pdgesvK1.c	/^void HPL_pdgesvK1(HPL_T_grid *GRID, HPL_T_palg *ALGO, HPL_T_pmat *A) {$/;"	f
+HPL_pdgesvK2	src/pgesv/HPL_pdgesvK2.c	/^void HPL_pdgesvK2(HPL_T_grid *GRID, HPL_T_palg *ALGO, HPL_T_pmat *A) {$/;"	f
+HPL_pdinfo	testing/ptest/HPL_pdinfo.c	/^void HPL_pdinfo(HPL_T_test *TEST, int *NS, int *N, int *NBS, int *NB,$/;"	f
+HPL_pdlamch	src/pauxil/HPL_pdlamch.c	/^double HPL_pdlamch(MPI_Comm COMM, const HPL_T_MACH CMACH) {$/;"	f
+HPL_pdlange	src/pauxil/HPL_pdlange.c	/^double HPL_pdlange(const HPL_T_grid *GRID, const HPL_T_NORM NORM, const int M,$/;"	f
+HPL_pdlaprnt	src/pauxil/HPL_pdlaprnt.c	/^void HPL_pdlaprnt(const HPL_T_grid* GRID, const int M, const int N,$/;"	f
+HPL_pdlaswp00N	src/pgesv/HPL_pdlaswp00N.c	/^void HPL_pdlaswp00N(HPL_T_panel *PBCST, int *IFLAG, HPL_T_panel *PANEL,$/;"	f
+HPL_pdlaswp00T	src/pgesv/HPL_pdlaswp00T.c	/^void HPL_pdlaswp00T(HPL_T_panel *PBCST, int *IFLAG, HPL_T_panel *PANEL,$/;"	f
+HPL_pdlaswp01N	src/pgesv/HPL_pdlaswp01N.c	/^void HPL_pdlaswp01N(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL,$/;"	f
+HPL_pdlaswp01T	src/pgesv/HPL_pdlaswp01T.c	/^void HPL_pdlaswp01T(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL,$/;"	f
+HPL_pdmatgen	testing/pmatgen/HPL_pdmatgen.c	/^void HPL_pdmatgen(const HPL_T_grid* GRID, const int M, const int N,$/;"	f
+HPL_pdmxswp	src/pfact/HPL_pdmxswp.c	/^void HPL_pdmxswp(HPL_T_panel* PANEL, const int M, const int II, const int JJ,$/;"	f
+HPL_pdpancrN	src/pfact/HPL_pdpancrN.c	/^void HPL_pdpancrN(HPL_T_panel* PANEL, const int M, const int N, const int ICOFF,$/;"	f
+HPL_pdpancrT	src/pfact/HPL_pdpancrT.c	/^void HPL_pdpancrT(HPL_T_panel* PANEL, const int M, const int N, const int ICOFF,$/;"	f
+HPL_pdpanel_disp	src/panel/HPL_pdpanel_disp.c	/^int HPL_pdpanel_disp(HPL_T_panel** PANEL) {$/;"	f
+HPL_pdpanel_free	src/panel/HPL_pdpanel_free.c	/^int HPL_pdpanel_free(HPL_T_panel* PANEL) {$/;"	f
+HPL_pdpanel_init	src/panel/HPL_pdpanel_init.c	/^void HPL_pdpanel_init$/;"	f
+HPL_pdpanel_new	src/panel/HPL_pdpanel_new.c	/^void HPL_pdpanel_new(HPL_T_grid *GRID, HPL_T_palg *ALGO, const int M,$/;"	f
+HPL_pdpanllN	src/pfact/HPL_pdpanllN.c	/^void HPL_pdpanllN(HPL_T_panel* PANEL, const int M, const int N, const int ICOFF,$/;"	f
+HPL_pdpanllT	src/pfact/HPL_pdpanllT.c	/^void HPL_pdpanllT(HPL_T_panel* PANEL, const int M, const int N, const int ICOFF,$/;"	f
+HPL_pdpanrlN	src/pfact/HPL_pdpanrlN.c	/^void HPL_pdpanrlN(HPL_T_panel* PANEL, const int M, const int N, const int ICOFF,$/;"	f
+HPL_pdpanrlT	src/pfact/HPL_pdpanrlT.c	/^void HPL_pdpanrlT(HPL_T_panel* PANEL, const int M, const int N, const int ICOFF,$/;"	f
+HPL_pdrpancrN	src/pfact/HPL_pdrpancrN.c	/^void HPL_pdrpancrN(HPL_T_panel* PANEL, const int M, const int N,$/;"	f
+HPL_pdrpancrT	src/pfact/HPL_pdrpancrT.c	/^void HPL_pdrpancrT(HPL_T_panel* PANEL, const int M, const int N,$/;"	f
+HPL_pdrpanllN	src/pfact/HPL_pdrpanllN.c	/^void HPL_pdrpanllN(HPL_T_panel* PANEL, const int M, const int N,$/;"	f
+HPL_pdrpanllT	src/pfact/HPL_pdrpanllT.c	/^void HPL_pdrpanllT(HPL_T_panel* PANEL, const int M, const int N,$/;"	f
+HPL_pdrpanrlN	src/pfact/HPL_pdrpanrlN.c	/^void HPL_pdrpanrlN(HPL_T_panel* PANEL, const int M, const int N,$/;"	f
+HPL_pdrpanrlT	src/pfact/HPL_pdrpanrlT.c	/^void HPL_pdrpanrlT(HPL_T_panel* PANEL, const int M, const int N,$/;"	f
+HPL_pdtest	testing/ptest/HPL_pdtest.c	/^void HPL_pdtest(HPL_T_test *TEST, HPL_T_grid *GRID, HPL_T_palg *ALGO,$/;"	f
+HPL_pdtrsv	src/pgesv/HPL_pdtrsv.c	/^void HPL_pdtrsv(HPL_T_grid *GRID, HPL_T_pmat *AMAT) {$/;"	f
+HPL_pdupdateNN	src/pgesv/HPL_pdupdateNN.c	/^void HPL_pdupdateNN(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL,$/;"	f
+HPL_pdupdateNT	src/pgesv/HPL_pdupdateNT.c	/^void HPL_pdupdateNT(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL,$/;"	f
+HPL_pdupdateTN	src/pgesv/HPL_pdupdateTN.c	/^void HPL_pdupdateTN(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL,$/;"	f
+HPL_pdupdateTT	src/pgesv/HPL_pdupdateTT.c	/^void HPL_pdupdateTT(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL,$/;"	f
+HPL_perm	src/pgesv/HPL_perm.c	/^void HPL_perm(const int N, int* LINDXA, int* LINDXAU, int* IWORK) {$/;"	f
+HPL_pipid	src/pgesv/HPL_pipid.c	/^void HPL_pipid(HPL_T_panel* PANEL, int* K, int* IPID) {$/;"	f
+HPL_plindx0	src/pgesv/HPL_plindx0.c	/^void HPL_plindx0(HPL_T_panel* PANEL, const int K, int* IPID, int* LINDXA,$/;"	f
+HPL_plindx1	src/pgesv/HPL_plindx1.c	/^void HPL_plindx1(HPL_T_panel* PANEL, const int K, const int* IPID, int* IPA,$/;"	f
+HPL_plindx10	src/pgesv/HPL_plindx10.c	/^void HPL_plindx10(HPL_T_panel* PANEL, const int K, const int* IPID, int* IPLEN,$/;"	f
+HPL_pnum	src/grid/HPL_pnum.c	/^int HPL_pnum(const HPL_T_grid* GRID, const int MYROW, const int MYCOL) {$/;"	f
+HPL_ptimer	testing/ptimer/HPL_ptimer.c	/^void HPL_ptimer(const int I) {$/;"	f
+HPL_ptimer_boot	testing/ptimer/HPL_ptimer.c	/^void HPL_ptimer_boot(void) {$/;"	f
+HPL_ptimer_combine	testing/ptimer/HPL_ptimer.c	/^void HPL_ptimer_combine(MPI_Comm COMM, const HPL_T_PTIME_OP OPE,$/;"	f
+HPL_ptimer_cpusec	testing/ptimer/HPL_ptimer.c	/^static double HPL_ptimer_cpusec[HPL_NPTIMER], HPL_ptimer_cpustart[HPL_NPTIMER],$/;"	v	file:
+HPL_ptimer_cpustart	testing/ptimer/HPL_ptimer.c	/^static double HPL_ptimer_cpusec[HPL_NPTIMER], HPL_ptimer_cpustart[HPL_NPTIMER],$/;"	v	file:
+HPL_ptimer_cputime	testing/ptimer/HPL_ptimer_cputime.c	/^double HPL_ptimer_cputime(void) {$/;"	f
+HPL_ptimer_disable	testing/ptimer/HPL_ptimer.c	/^void HPL_ptimer_disable(void) {$/;"	f
+HPL_ptimer_disabled	testing/ptimer/HPL_ptimer.c	/^static int HPL_ptimer_disabled;$/;"	v	file:
+HPL_ptimer_enable	testing/ptimer/HPL_ptimer.c	/^void HPL_ptimer_enable(void) {$/;"	f
+HPL_ptimer_inquire	testing/ptimer/HPL_ptimer.c	/^double HPL_ptimer_inquire(const HPL_T_PTIME TMTYPE, const int I) {$/;"	f
+HPL_ptimer_wallsec	testing/ptimer/HPL_ptimer.c	/^    HPL_ptimer_wallsec[HPL_NPTIMER], HPL_ptimer_wallstart[HPL_NPTIMER];$/;"	v	file:
+HPL_ptimer_wallstart	testing/ptimer/HPL_ptimer.c	/^    HPL_ptimer_wallsec[HPL_NPTIMER], HPL_ptimer_wallstart[HPL_NPTIMER];$/;"	v	file:
+HPL_ptimer_walltime	testing/ptimer/HPL_ptimer_walltime.c	/^double HPL_ptimer_walltime(void) { return (MPI_Wtime()); }$/;"	f
+HPL_ptimer_walltime	testing/ptimer/HPL_ptimer_walltime.c	/^double HPL_ptimer_walltime(void) {$/;"	f
+HPL_pwarn	src/pauxil/HPL_pwarn.c	/^void HPL_pwarn(FILE* STREAM, int LINE, const char* SRNAME, const char* FORM,$/;"	f
+HPL_rand	testing/matgen/HPL_rand.c	/^double HPL_rand(void) {$/;"	f
+HPL_recv	src/comm/HPL_recv.c	/^int HPL_recv(double *RBUF, int RCOUNT, int SRC, int RTAG, MPI_Comm COMM) {$/;"	f
+HPL_reduce	src/grid/HPL_reduce.c	/^int HPL_reduce(void *BUFFER, const int COUNT, const HPL_T_TYPE DTYPE,$/;"	f
+HPL_rollN	src/pgesv/HPL_rollN.c	/^void HPL_rollN(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL, const int N,$/;"	f
+HPL_rollT	src/pgesv/HPL_rollT.c	/^void HPL_rollT(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL, const int N,$/;"	f
+HPL_rone	include/hpl_misc.h	25;"	d
+HPL_rtwo	include/hpl_misc.h	26;"	d
+HPL_rzero	include/hpl_misc.h	27;"	d
+HPL_sdrv	src/comm/HPL_sdrv.c	/^int HPL_sdrv(double *SBUF, int SCOUNT, int STAG, double *RBUF, int RCOUNT,$/;"	f
+HPL_send	src/comm/HPL_send.c	/^int HPL_send(double *SBUF, int SCOUNT, int DEST, int STAG, MPI_Comm COMM) {$/;"	f
+HPL_setran	testing/matgen/HPL_setran.c	/^void HPL_setran$/;"	f
+HPL_spreadN	src/pgesv/HPL_spreadN.c	/^void HPL_spreadN(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL,$/;"	f
+HPL_spreadT	src/pgesv/HPL_spreadT.c	/^void HPL_spreadT(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL,$/;"	f
+HPL_sum	src/grid/HPL_sum.c	/^void HPL_sum(const int N, const void *IN, void *INOUT, const HPL_T_TYPE DTYPE) {$/;"	f
+HPL_timer	testing/timer/HPL_timer.c	/^void HPL_timer(const int I) {$/;"	f
+HPL_timer_boot	testing/timer/HPL_timer.c	/^void HPL_timer_boot(void) {$/;"	f
+HPL_timer_cpusec	testing/timer/HPL_timer.c	/^static double HPL_timer_cpusec[HPL_NTIMER], HPL_timer_cpustart[HPL_NTIMER],$/;"	v	file:
+HPL_timer_cpustart	testing/timer/HPL_timer.c	/^static double HPL_timer_cpusec[HPL_NTIMER], HPL_timer_cpustart[HPL_NTIMER],$/;"	v	file:
+HPL_timer_cputime	testing/timer/HPL_timer_cputime.c	/^double HPL_timer_cputime( void )$/;"	f
+HPL_timer_disable	testing/timer/HPL_timer.c	/^void HPL_timer_disable(void) {$/;"	f
+HPL_timer_disabled	testing/timer/HPL_timer.c	/^static int HPL_timer_disabled;$/;"	v	file:
+HPL_timer_enable	testing/timer/HPL_timer.c	/^void HPL_timer_enable(void) {$/;"	f
+HPL_timer_inquire	testing/timer/HPL_timer.c	/^double HPL_timer_inquire(const HPL_T_TIME TMTYPE, const int I) {$/;"	f
+HPL_timer_wallsec	testing/timer/HPL_timer.c	/^    HPL_timer_wallsec[HPL_NTIMER], HPL_timer_wallstart[HPL_NTIMER];$/;"	v	file:
+HPL_timer_wallstart	testing/timer/HPL_timer.c	/^    HPL_timer_wallsec[HPL_NTIMER], HPL_timer_wallstart[HPL_NTIMER];$/;"	v	file:
+HPL_timer_walltime	testing/timer/HPL_timer_walltime.c	/^double HPL_timer_walltime( void )$/;"	f
+HPL_warn	src/auxil/HPL_warn.c	/^void HPL_warn(FILE* STREAM, int LINE, const char* SRNAME, const char* FORM,$/;"	f
+HPL_xjumpm	testing/matgen/HPL_xjumpm.c	/^void HPL_xjumpm(const int JUMPM, int* MULT, int* IADD, int* IRANN, int* IRANM,$/;"	f
+HplColumnMajor	include/hpl_blas.h	/^{  HplRowMajor = 101,  HplColumnMajor  = 102 };$/;"	e	enum:HPL_ORDER
+HplConjTrans	include/hpl_blas.h	/^{  HplNoTrans  = 111,  HplTrans        = 112,  HplConjTrans    = 113 };$/;"	e	enum:HPL_TRANS
+HplLeft	include/hpl_blas.h	/^{  HplLeft     = 141,  HplRight        = 142 }; $/;"	e	enum:HPL_SIDE
+HplLower	include/hpl_blas.h	/^{  HplUpper    = 121,  HplLower        = 122 };$/;"	e	enum:HPL_UPLO
+HplNoTrans	include/hpl_blas.h	/^{  HplNoTrans  = 111,  HplTrans        = 112,  HplConjTrans    = 113 };$/;"	e	enum:HPL_TRANS
+HplNonUnit	include/hpl_blas.h	/^{  HplNonUnit  = 131,  HplUnit         = 132 };$/;"	e	enum:HPL_DIAG
+HplRight	include/hpl_blas.h	/^{  HplLeft     = 141,  HplRight        = 142 }; $/;"	e	enum:HPL_SIDE
+HplRowMajor	include/hpl_blas.h	/^{  HplRowMajor = 101,  HplColumnMajor  = 102 };$/;"	e	enum:HPL_ORDER
+HplTrans	include/hpl_blas.h	/^{  HplNoTrans  = 111,  HplTrans        = 112,  HplConjTrans    = 113 };$/;"	e	enum:HPL_TRANS
+HplUnit	include/hpl_blas.h	/^{  HplNonUnit  = 131,  HplUnit         = 132 };$/;"	e	enum:HPL_DIAG
+HplUpper	include/hpl_blas.h	/^{  HplUpper    = 121,  HplLower        = 122 };$/;"	e	enum:HPL_UPLO
+IWORK	include/hpl_panel.h	/^   int                 * IWORK;     \/* integer workspace for swapping *\/$/;"	m	struct:HPL_S_panel
+I_RECV	src/comm/HPL_blonM.c	10;"	d	file:
+I_RECV	src/comm/HPL_blong.c	10;"	d	file:
+I_RECV	src/pgesv/HPL_rollN.c	4;"	d	file:
+I_RECV	src/pgesv/HPL_rollT.c	4;"	d	file:
+I_SEND	src/comm/HPL_blonM.c	9;"	d	file:
+I_SEND	src/comm/HPL_blong.c	9;"	d	file:
+I_SEND	src/pgesv/HPL_rollN.c	3;"	d	file:
+I_SEND	src/pgesv/HPL_rollT.c	3;"	d	file:
+L1	include/hpl_panel.h	/^   double              * L1;       \/* ptr to jb x jb upper block of A *\/$/;"	m	struct:HPL_S_panel
+L1block	include/hpl_panel.h	/^   vsip_block_d        * L1block;                         \/* L1 block *\/$/;"	m	struct:HPL_S_panel
+L2	include/hpl_panel.h	/^   double              * L2;                              \/* ptr to L *\/$/;"	m	struct:HPL_S_panel
+L2block	include/hpl_panel.h	/^   vsip_block_d        * L2block;                         \/* L2 block *\/$/;"	m	struct:HPL_S_panel
+LDU	src/pgesv/HPL_pdlaswp00N.c	57;"	d	file:
+LDU	src/pgesv/HPL_pdlaswp00T.c	57;"	d	file:
+LDU	src/pgesv/HPL_pdlaswp01N.c	54;"	d	file:
+LDU	src/pgesv/HPL_pdlaswp01T.c	54;"	d	file:
+LDU	src/pgesv/HPL_pdupdateNN.c	44;"	d	file:
+LDU	src/pgesv/HPL_pdupdateNT.c	44;"	d	file:
+LDU	src/pgesv/HPL_pdupdateTN.c	44;"	d	file:
+LDU	src/pgesv/HPL_pdupdateTT.c	44;"	d	file:
+MModAdd	include/hpl_grid.h	115;"	d
+MModAdd1	include/hpl_grid.h	118;"	d
+MModDec	include/hpl_grid.h	111;"	d
+MModInc	include/hpl_grid.h	109;"	d
+MModSub	include/hpl_grid.h	120;"	d
+MModSub1	include/hpl_grid.h	123;"	d
+MNxtMgid	include/hpl_pgesv.h	127;"	d
+MPosMod	include/hpl_grid.h	113;"	d
+MSGID_BEGIN_COLL	include/hpl_pgesv.h	120;"	d
+MSGID_BEGIN_FACT	include/hpl_pgesv.h	115;"	d
+MSGID_BEGIN_PFACT	include/hpl_pgesv.h	113;"	d
+MSGID_BEGIN_PTRSV	include/hpl_pgesv.h	117;"	d
+MSGID_END_COLL	include/hpl_pgesv.h	121;"	d
+MSGID_END_FACT	include/hpl_pgesv.h	116;"	d
+MSGID_END_PFACT	include/hpl_pgesv.h	114;"	d
+MSGID_END_PTRSV	include/hpl_pgesv.h	118;"	d
+Mabs	include/hpl_misc.h	33;"	d
+Mceil	include/hpl_misc.h	38;"	d
+Mfloor	include/hpl_misc.h	37;"	d
+Miceil	include/hpl_misc.h	39;"	d
+Mindxg2l	include/hpl_pauxil.h	82;"	d
+Mindxg2lp	include/hpl_pauxil.h	96;"	d
+Mindxg2p	include/hpl_pauxil.h	68;"	d
+Mindxl2g	include/hpl_pauxil.h	116;"	d
+Mlowcase	include/hpl_misc.h	42;"	d
+Mmax	include/hpl_misc.h	35;"	d
+Mmin	include/hpl_misc.h	34;"	d
+Mnumroc	include/hpl_pauxil.h	235;"	d
+MnumrocI	include/hpl_pauxil.h	151;"	d
+Mptr	include/hpl_misc.h	47;"	d
+Mupcase	include/hpl_misc.h	41;"	d
+SHELL	Makefile	/^SHELL            = \/bin\/sh$/;"	m
+STDC_ARGS	include/hpl_misc.h	15;"	d
+StringSunStyle	include/hpl_blas.h	208;"	d
+U	include/hpl_panel.h	/^   double              * U;                               \/* ptr to U *\/$/;"	m	struct:HPL_S_panel
+Ublock	include/hpl_panel.h	/^   vsip_block_d        * Ublock;                           \/* U block *\/$/;"	m	struct:HPL_S_panel
+WORK	include/hpl_panel.h	/^   double              * WORK;                          \/* work space *\/$/;"	m	struct:HPL_S_panel
+X	include/hpl_pgesv.h	/^   double              * X;             \/* pointer to solution vector *\/$/;"	m	struct:HPL_S_pmat
+_M_BUFF	src/comm/HPL_1rinM.c	44;"	d	file:
+_M_BUFF	src/comm/HPL_1rinM.c	50;"	d	file:
+_M_BUFF	src/comm/HPL_1ring.c	44;"	d	file:
+_M_BUFF	src/comm/HPL_1ring.c	50;"	d	file:
+_M_BUFF	src/comm/HPL_2rinM.c	44;"	d	file:
+_M_BUFF	src/comm/HPL_2rinM.c	50;"	d	file:
+_M_BUFF	src/comm/HPL_2ring.c	44;"	d	file:
+_M_BUFF	src/comm/HPL_2ring.c	50;"	d	file:
+_M_BUFF_R	src/comm/HPL_blong.c	41;"	d	file:
+_M_BUFF_R	src/comm/HPL_blong.c	59;"	d	file:
+_M_BUFF_R1	src/comm/HPL_blonM.c	45;"	d	file:
+_M_BUFF_R1	src/comm/HPL_blonM.c	71;"	d	file:
+_M_BUFF_R2	src/comm/HPL_blonM.c	49;"	d	file:
+_M_BUFF_R2	src/comm/HPL_blonM.c	75;"	d	file:
+_M_BUFF_S	src/comm/HPL_blong.c	37;"	d	file:
+_M_BUFF_S	src/comm/HPL_blong.c	55;"	d	file:
+_M_BUFF_S1	src/comm/HPL_blonM.c	37;"	d	file:
+_M_BUFF_S1	src/comm/HPL_blonM.c	63;"	d	file:
+_M_BUFF_S2	src/comm/HPL_blonM.c	41;"	d	file:
+_M_BUFF_S2	src/comm/HPL_blonM.c	67;"	d	file:
+_M_COUNT	src/comm/HPL_1rinM.c	45;"	d	file:
+_M_COUNT	src/comm/HPL_1rinM.c	51;"	d	file:
+_M_COUNT	src/comm/HPL_1ring.c	45;"	d	file:
+_M_COUNT	src/comm/HPL_1ring.c	51;"	d	file:
+_M_COUNT	src/comm/HPL_2rinM.c	45;"	d	file:
+_M_COUNT	src/comm/HPL_2rinM.c	51;"	d	file:
+_M_COUNT	src/comm/HPL_2ring.c	45;"	d	file:
+_M_COUNT	src/comm/HPL_2ring.c	51;"	d	file:
+_M_COUNT_R	src/comm/HPL_blong.c	42;"	d	file:
+_M_COUNT_R	src/comm/HPL_blong.c	60;"	d	file:
+_M_COUNT_R1	src/comm/HPL_blonM.c	46;"	d	file:
+_M_COUNT_R1	src/comm/HPL_blonM.c	72;"	d	file:
+_M_COUNT_R2	src/comm/HPL_blonM.c	50;"	d	file:
+_M_COUNT_R2	src/comm/HPL_blonM.c	76;"	d	file:
+_M_COUNT_S	src/comm/HPL_blong.c	38;"	d	file:
+_M_COUNT_S	src/comm/HPL_blong.c	56;"	d	file:
+_M_COUNT_S1	src/comm/HPL_blonM.c	38;"	d	file:
+_M_COUNT_S1	src/comm/HPL_blonM.c	64;"	d	file:
+_M_COUNT_S2	src/comm/HPL_blonM.c	42;"	d	file:
+_M_COUNT_S2	src/comm/HPL_blonM.c	68;"	d	file:
+_M_ROLL_BUFF_R	src/comm/HPL_blonM.c	57;"	d	file:
+_M_ROLL_BUFF_R	src/comm/HPL_blonM.c	82;"	d	file:
+_M_ROLL_BUFF_R	src/comm/HPL_blong.c	49;"	d	file:
+_M_ROLL_BUFF_R	src/comm/HPL_blong.c	67;"	d	file:
+_M_ROLL_BUFF_S	src/comm/HPL_blonM.c	53;"	d	file:
+_M_ROLL_BUFF_S	src/comm/HPL_blonM.c	79;"	d	file:
+_M_ROLL_BUFF_S	src/comm/HPL_blong.c	45;"	d	file:
+_M_ROLL_BUFF_S	src/comm/HPL_blong.c	63;"	d	file:
+_M_ROLL_COUNT_R	src/comm/HPL_blonM.c	58;"	d	file:
+_M_ROLL_COUNT_R	src/comm/HPL_blonM.c	83;"	d	file:
+_M_ROLL_COUNT_R	src/comm/HPL_blong.c	50;"	d	file:
+_M_ROLL_COUNT_R	src/comm/HPL_blong.c	68;"	d	file:
+_M_ROLL_COUNT_S	src/comm/HPL_blonM.c	54;"	d	file:
+_M_ROLL_COUNT_S	src/comm/HPL_blonM.c	80;"	d	file:
+_M_ROLL_COUNT_S	src/comm/HPL_blong.c	46;"	d	file:
+_M_ROLL_COUNT_S	src/comm/HPL_blong.c	64;"	d	file:
+_M_ROLL_TYPE_R	src/comm/HPL_blonM.c	59;"	d	file:
+_M_ROLL_TYPE_R	src/comm/HPL_blonM.c	84;"	d	file:
+_M_ROLL_TYPE_R	src/comm/HPL_blong.c	51;"	d	file:
+_M_ROLL_TYPE_R	src/comm/HPL_blong.c	69;"	d	file:
+_M_ROLL_TYPE_S	src/comm/HPL_blonM.c	55;"	d	file:
+_M_ROLL_TYPE_S	src/comm/HPL_blonM.c	81;"	d	file:
+_M_ROLL_TYPE_S	src/comm/HPL_blong.c	47;"	d	file:
+_M_ROLL_TYPE_S	src/comm/HPL_blong.c	65;"	d	file:
+_M_TYPE	src/comm/HPL_1rinM.c	46;"	d	file:
+_M_TYPE	src/comm/HPL_1rinM.c	52;"	d	file:
+_M_TYPE	src/comm/HPL_1ring.c	46;"	d	file:
+_M_TYPE	src/comm/HPL_1ring.c	52;"	d	file:
+_M_TYPE	src/comm/HPL_2rinM.c	46;"	d	file:
+_M_TYPE	src/comm/HPL_2rinM.c	52;"	d	file:
+_M_TYPE	src/comm/HPL_2ring.c	46;"	d	file:
+_M_TYPE	src/comm/HPL_2ring.c	52;"	d	file:
+_M_TYPE_R	src/comm/HPL_blong.c	43;"	d	file:
+_M_TYPE_R	src/comm/HPL_blong.c	61;"	d	file:
+_M_TYPE_R1	src/comm/HPL_blonM.c	47;"	d	file:
+_M_TYPE_R1	src/comm/HPL_blonM.c	73;"	d	file:
+_M_TYPE_R2	src/comm/HPL_blonM.c	51;"	d	file:
+_M_TYPE_R2	src/comm/HPL_blonM.c	77;"	d	file:
+_M_TYPE_S	src/comm/HPL_blong.c	39;"	d	file:
+_M_TYPE_S	src/comm/HPL_blong.c	57;"	d	file:
+_M_TYPE_S1	src/comm/HPL_blonM.c	39;"	d	file:
+_M_TYPE_S1	src/comm/HPL_blonM.c	65;"	d	file:
+_M_TYPE_S2	src/comm/HPL_blonM.c	43;"	d	file:
+_M_TYPE_S2	src/comm/HPL_blonM.c	69;"	d	file:
+algo	include/hpl_panel.h	/^   struct HPL_S_palg   * algo;          \/* ptr to the algo parameters *\/$/;"	m	struct:HPL_S_panel	typeref:struct:HPL_S_panel::HPL_S_palg
+align	include/hpl_pgesv.h	/^   int                 align;              \/* data alignment constant *\/$/;"	m	struct:HPL_S_palg
+all_comm	include/hpl_grid.h	/^   MPI_Comm        all_comm;                     \/* grid communicator *\/$/;"	m	struct:HPL_S_grid
+arch	Makefile	/^arch             = UNKNOWN$/;"	m
+block	include/hpl_pgesv.h	/^   vsip_block_d        * block;$/;"	m	struct:HPL_S_pmat
+btopo	include/hpl_pgesv.h	/^   HPL_T_TOP           btopo;               \/* row broadcast topology *\/$/;"	m	struct:HPL_S_palg
+buffers	include/hpl_panel.h	/^   void                * * * buffers[2];   \/* buffers for panel bcast *\/$/;"	m	struct:HPL_S_panel
+col_comm	include/hpl_grid.h	/^   MPI_Comm        col_comm;                   \/* column communicator *\/$/;"	m	struct:HPL_S_grid
+col_hdim	include/hpl_grid.h	/^   int             col_hdim;     \/* col_ip2 procs hypercube dimension *\/$/;"	m	struct:HPL_S_grid
+col_ip2	include/hpl_grid.h	/^   int             col_ip2;          \/* largest power of two <= npcol *\/$/;"	m	struct:HPL_S_grid
+col_ip2m1	include/hpl_grid.h	/^   int             col_ip2m1;      \/* largest power of two <= npcol-1 *\/$/;"	m	struct:HPL_S_grid
+col_mask	include/hpl_grid.h	/^   int             col_mask;        \/* col_ip2m1 procs hypercube mask *\/$/;"	m	struct:HPL_S_grid
+counts	include/hpl_panel.h	/^   int                 counts [2];          \/* counts for panel bcast *\/$/;"	m	struct:HPL_S_panel
+cp	include/hpl_blas.h	/^typedef struct { char *cp; F77_INTEGER len; } F77_CHAR;$/;"	m	struct:__anon4
+cp	include/hpl_blas.h	/^typedef struct { char *cp; F77_INTEGER len; } F77_CHAR;$/;"	m	struct:__anon5
+depth	include/hpl_pgesv.h	/^   int                 depth;                     \/* look-ahead depth *\/$/;"	m	struct:HPL_S_palg
+dtypes	include/hpl_panel.h	/^   MPI_Datatype        dtypes [2];      \/* data types for panel bcast *\/$/;"	m	struct:HPL_S_panel
+epsil	include/hpl_ptest.h	/^   double              epsil;                      \/* epsilon machine *\/$/;"	m	struct:HPL_S_test
+equil	include/hpl_pgesv.h	/^   int                 equil;                        \/* Equilibration *\/$/;"	m	struct:HPL_S_palg
+fsthr	include/hpl_pgesv.h	/^   int                 fsthr;                   \/* Swapping threshold *\/$/;"	m	struct:HPL_S_palg
+fswap	include/hpl_pgesv.h	/^   HPL_T_SWAP          fswap;                   \/* Swapping algorithm *\/$/;"	m	struct:HPL_S_palg
+grid	include/hpl_panel.h	/^   struct HPL_S_grid   * grid;             \/* ptr to the process grid *\/$/;"	m	struct:HPL_S_panel	typeref:struct:HPL_S_panel::HPL_S_grid
+ia	include/hpl_panel.h	/^   int                 ia;  \/* global row index of trailing part of A *\/$/;"	m	struct:HPL_S_panel
+iam	include/hpl_grid.h	/^   int             iam;                        \/* my rank in the grid *\/$/;"	m	struct:HPL_S_grid
+ias	testing/matgen/HPL_setran.c	/^static int       ias[2], ics[2], irand[2];$/;"	v	file:
+ics	testing/matgen/HPL_setran.c	/^static int       ias[2], ics[2], irand[2];$/;"	v	file:
+ii	include/hpl_panel.h	/^   int                 ii;   \/* local row index of trailing part of A *\/$/;"	m	struct:HPL_S_panel
+info	include/hpl_pgesv.h	/^   int                 info;                    \/* computational flag *\/$/;"	m	struct:HPL_S_pmat
+irand	testing/matgen/HPL_setran.c	/^static int       ias[2], ics[2], irand[2];$/;"	v	file:
+ja	include/hpl_panel.h	/^   int                 ja;  \/* global col index of trailing part of A *\/$/;"	m	struct:HPL_S_panel
+jb	include/hpl_panel.h	/^   int                 jb;                             \/* panel width *\/$/;"	m	struct:HPL_S_panel
+jj	include/hpl_panel.h	/^   int                 jj;   \/* local col index of trailing part of A *\/$/;"	m	struct:HPL_S_panel
+kfail	include/hpl_ptest.h	/^   int                 kfail;                    \/* # of tests failed *\/$/;"	m	struct:HPL_S_test
+kpass	include/hpl_ptest.h	/^   int                 kpass;                    \/* # of tests passed *\/$/;"	m	struct:HPL_S_test
+kskip	include/hpl_ptest.h	/^   int                 kskip;                   \/* # of tests skipped *\/$/;"	m	struct:HPL_S_test
+ktest	include/hpl_ptest.h	/^   int                 ktest;                \/* total number of tests *\/$/;"	m	struct:HPL_S_test
+ld	include/hpl_pgesv.h	/^   int                 ld;                 \/* local leading dimension *\/$/;"	m	struct:HPL_S_pmat
+lda	include/hpl_panel.h	/^   int                 lda;           \/* local leading dim of array A *\/$/;"	m	struct:HPL_S_panel
+ldl2	include/hpl_panel.h	/^   int                 ldl2;         \/* local leading dim of array L2 *\/$/;"	m	struct:HPL_S_panel
+len	include/hpl_blas.h	/^typedef struct { char *cp; F77_INTEGER len; } F77_CHAR;$/;"	m	struct:__anon4
+len	include/hpl_blas.h	/^typedef struct { char *cp; F77_INTEGER len; } F77_CHAR;$/;"	m	struct:__anon5
+len	include/hpl_panel.h	/^   int                 len;      \/* length of the buffer to broadcast *\/$/;"	m	struct:HPL_S_panel
+m	include/hpl_panel.h	/^   int                 m;   \/* global # of rows of trailing part of A *\/$/;"	m	struct:HPL_S_panel
+main	testing/ptest/HPL_pddriver.c	/^int main(int ARGC, char** ARGV) {$/;"	f
+mp	include/hpl_panel.h	/^   int                 mp;   \/* local # of rows of trailing part of A *\/$/;"	m	struct:HPL_S_panel
+mp	include/hpl_pgesv.h	/^   int                 mp;                    \/* local number of rows *\/$/;"	m	struct:HPL_S_pmat
+msgid	include/hpl_panel.h	/^   int                 msgid;           \/* message id for panel bcast *\/$/;"	m	struct:HPL_S_panel
+mycol	include/hpl_grid.h	/^   int             mycol;             \/* my column number in the grid *\/$/;"	m	struct:HPL_S_grid
+myrow	include/hpl_grid.h	/^   int             myrow;                \/* my row number in the grid *\/$/;"	m	struct:HPL_S_grid
+n	include/hpl_panel.h	/^   int                 n;   \/* global # of cols of trailing part of A *\/$/;"	m	struct:HPL_S_panel
+n	include/hpl_pgesv.h	/^   int                 n;                      \/* global problem size *\/$/;"	m	struct:HPL_S_pmat
+nb	include/hpl_panel.h	/^   int                 nb;            \/* distribution blocking factor *\/$/;"	m	struct:HPL_S_panel
+nb	include/hpl_pgesv.h	/^   int                 nb;                         \/* blocking factor *\/$/;"	m	struct:HPL_S_pmat
+nbdiv	include/hpl_pgesv.h	/^   int                 nbdiv;            \/* recursive division factor *\/$/;"	m	struct:HPL_S_palg
+nbmin	include/hpl_pgesv.h	/^   int                 nbmin;         \/* recursion stopping criterium *\/$/;"	m	struct:HPL_S_palg
+npcol	include/hpl_grid.h	/^   int             npcol;       \/* the total # of columns in the grid *\/$/;"	m	struct:HPL_S_grid
+nprocs	include/hpl_grid.h	/^   int             nprocs;        \/* the total # of procs in the grid *\/$/;"	m	struct:HPL_S_grid
+nprow	include/hpl_grid.h	/^   int             nprow;          \/* the total # of rows in the grid *\/$/;"	m	struct:HPL_S_grid
+nq	include/hpl_panel.h	/^   int                 nq;   \/* local # of cols of trailing part of A *\/$/;"	m	struct:HPL_S_panel
+nq	include/hpl_pgesv.h	/^   int                 nq;                 \/* local number of columns *\/$/;"	m	struct:HPL_S_pmat
+order	include/hpl_grid.h	/^   HPL_T_ORDER     order;        \/* ordering of the procs in the grid *\/$/;"	m	struct:HPL_S_grid
+outfp	include/hpl_ptest.h	/^   FILE *              outfp;       \/* output stream (only in proc 0) *\/$/;"	m	struct:HPL_S_test
+pcol	include/hpl_panel.h	/^   int                 pcol;  \/* proc. col owning 1st col of trail. A *\/$/;"	m	struct:HPL_S_panel
+pfact	include/hpl_pgesv.h	/^   HPL_T_FACT          pfact;                   \/* panel fact variant *\/$/;"	m	struct:HPL_S_palg
+pffun	include/hpl_pgesv.h	/^   HPL_T_PFA_FUN       pffun;              \/* panel fact function ptr *\/$/;"	m	struct:HPL_S_palg
+pmat	include/hpl_panel.h	/^   struct HPL_S_pmat   * pmat;         \/* ptr to the local array info *\/$/;"	m	struct:HPL_S_panel	typeref:struct:HPL_S_panel::HPL_S_pmat
+prow	include/hpl_panel.h	/^   int                 prow;  \/* proc. row owning 1st row of trail. A *\/$/;"	m	struct:HPL_S_panel
+request	include/hpl_panel.h	/^   MPI_Request         request[1];        \/* requests for panel bcast *\/$/;"	m	struct:HPL_S_panel
+rfact	include/hpl_pgesv.h	/^   HPL_T_FACT          rfact;               \/* recursive fact variant *\/$/;"	m	struct:HPL_S_palg
+rffun	include/hpl_pgesv.h	/^   HPL_T_RFA_FUN       rffun;          \/* recursive fact function ptr *\/$/;"	m	struct:HPL_S_palg
+row_comm	include/hpl_grid.h	/^   MPI_Comm        row_comm;                      \/* row communicator *\/$/;"	m	struct:HPL_S_grid
+row_hdim	include/hpl_grid.h	/^   int             row_hdim;     \/* row_ip2 procs hypercube dimension *\/$/;"	m	struct:HPL_S_grid
+row_ip2	include/hpl_grid.h	/^   int             row_ip2;          \/* largest power of two <= nprow *\/$/;"	m	struct:HPL_S_grid
+row_ip2m1	include/hpl_grid.h	/^   int             row_ip2m1;      \/* largest power of two <= nprow-1 *\/$/;"	m	struct:HPL_S_grid
+row_mask	include/hpl_grid.h	/^   int             row_mask;        \/* row_ip2m1 procs hypercube mask *\/$/;"	m	struct:HPL_S_grid
+status	include/hpl_panel.h	/^   MPI_Status          status [1];          \/* status for panel bcast *\/$/;"	m	struct:HPL_S_panel
+thrsh	include/hpl_ptest.h	/^   double              thrsh;                            \/* threshold *\/$/;"	m	struct:HPL_S_test
+upfun	include/hpl_pgesv.h	/^   HPL_T_UPD_FUN       upfun;                      \/* update function *\/$/;"	m	struct:HPL_S_palg
