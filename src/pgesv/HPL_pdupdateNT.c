@@ -33,7 +33,7 @@ void HPL_pdupdateNT(HPL_T_panel* PBCST, int* IFLAG, HPL_T_panel* PANEL,
    *
    * ---------------------------------------------------------------------
    */
-  / double *Aptr, *L1ptr, *L2ptr, *Uptr, *dpiv;
+  double *Aptr, *L1ptr, *L2ptr, *Uptr, *dpiv;
   int* ipiv;
 #ifdef HPL_CALL_VSIPL
   vsip_mview_d *Av0, *Av1, *Lv0, *Lv1, *Uv0, *Uv1;
