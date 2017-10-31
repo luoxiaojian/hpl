@@ -98,7 +98,8 @@ void HPL_pdtest(HPL_T_test *TEST, HPL_T_grid *GRID, HPL_T_palg *ALGO,
   info[0] = (vptr == NULL);
   info[1] = myrow;
   info[2] = mycol;
-  (void)HPL_all_reduce((void *)(info), 3, HPL_INT, HPL_max, GRID->all_comm);
+  MPI_Allreduce(MPI_IN_PLACE, (void *)(info), 3, MPI_INT, MPI_MAX,
+                GRID->all_comm);
   if (info[0] != 0) {
     if ((myrow == 0) && (mycol == 0))
       HPL_pwarn(TEST->outfp, __LINE__, "HPL_pdtest", "[%d,%d] %s", info[1],
@@ -120,7 +121,7 @@ void HPL_pdtest(HPL_T_test *TEST, HPL_T_grid *GRID, HPL_T_palg *ALGO,
    * Solve linear system
    */
   HPL_ptimer_boot();
-  (void)HPL_barrier(GRID->all_comm);
+  MPI_Barrier(GRID->all_comm);
   time(&current_time_start);
   HPL_ptimer(0);
   HPL_pdgesv(GRID, ALGO, &mat);
@@ -294,11 +295,11 @@ void HPL_pdtest(HPL_T_test *TEST, HPL_T_grid *GRID, HPL_T_palg *ALGO,
     } else {
       BnormI = HPL_rzero;
     }
-    (void)HPL_all_reduce((void *)(&BnormI), 1, HPL_DOUBLE, HPL_max,
-                         GRID->col_comm);
+    MPI_Allreduce(MPI_IN_PLACE, (void *)(&BnormI), 1, MPI_DOUBLE, MPI_MAX,
+                  GRID->col_comm);
   }
-  (void)HPL_broadcast((void *)(&BnormI), 1, HPL_DOUBLE,
-                      HPL_indxg2p(N, NB, NB, 0, npcol), GRID->row_comm);
+  MPI_Bcast((void *)(&BnormI), 1, MPI_DOUBLE, HPL_indxg2p(N, NB, NB, 0, npcol),
+            GRID->row_comm);
   /*
    * If I own b, compute ( b - A x ) and ( - A x ) otherwise
    */
@@ -314,8 +315,16 @@ void HPL_pdtest(HPL_T_test *TEST, HPL_T_grid *GRID, HPL_T_palg *ALGO,
   /*
    * Reduce the distributed residual in process column 0
    */
-  if (mat.mp > 0)
-    (void)HPL_reduce(Bptr, mat.mp, HPL_DOUBLE, HPL_sum, 0, GRID->row_comm);
+  if (mat.mp > 0) {
+    int rrank;
+    MPI_Comm_rank(GRID->row_comm, &rrank);
+    if (rrank == 0)
+      MPI_Reduce(MPI_IN_PLACE, (void *)(Bptr), mat.mp, MPI_DOUBLE, MPI_SUM, 0,
+                 GRID->row_comm);
+    else
+      MPI_Reduce((void *)(Bptr), NULL, mat.mp, MPI_DOUBLE, MPI_SUM, 0,
+                 GRID->row_comm);
+  }
   /*
    * Compute || b - A x ||_oo
    */

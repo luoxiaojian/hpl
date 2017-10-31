@@ -203,13 +203,13 @@ void HPL_ptimer_combine(MPI_Comm COMM, const HPL_T_PTIME_OP OPE,
   for (i = 0; i < N; i++) TIMES[i] = Mmax(HPL_rzero, TIMES[i]);
 
   if (OPE == HPL_AMAX_PTIME)
-    (void)HPL_all_reduce((void *)(TIMES), N, HPL_DOUBLE, HPL_max, COMM);
+    MPI_Allreduce(MPI_IN_PLACE, (void *)(TIMES), N, MPI_DOUBLE, MPI_MAX, COMM);
   else if (OPE == HPL_AMIN_PTIME)
-    (void)HPL_all_reduce((void *)(TIMES), N, HPL_DOUBLE, HPL_min, COMM);
+    MPI_Allreduce(MPI_IN_PLACE, (void *)(TIMES), N, MPI_DOUBLE, MPI_MIN, COMM);
   else if (OPE == HPL_SUM_PTIME)
-    (void)HPL_all_reduce((void *)(TIMES), N, HPL_DOUBLE, HPL_sum, COMM);
+    MPI_Allreduce(MPI_IN_PLACE, (void *)(TIMES), N, MPI_DOUBLE, MPI_SUM, COMM);
   else
-    (void)HPL_all_reduce((void *)(TIMES), N, HPL_DOUBLE, HPL_max, COMM);
+    MPI_Allreduce(MPI_IN_PLACE, (void *)(TIMES), N, MPI_DOUBLE, MPI_MAX, COMM);
 
   HPL_ptimer_disabled = tmpdis;
 }

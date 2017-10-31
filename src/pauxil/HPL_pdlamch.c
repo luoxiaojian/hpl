@@ -56,11 +56,13 @@ double HPL_pdlamch(MPI_Comm COMM, const HPL_T_MACH CMACH) {
     case HPL_MACH_SFMIN:
     case HPL_MACH_EMIN:
     case HPL_MACH_RMIN:
-      (void)HPL_all_reduce((void *)(&param), 1, HPL_DOUBLE, HPL_max, COMM);
+      MPI_Allreduce(MPI_IN_PLACE, (void*)(&param), 1, MPI_DOUBLE, MPI_MAX,
+                    COMM);
       break;
     case HPL_MACH_EMAX:
     case HPL_MACH_RMAX:
-      (void)HPL_all_reduce((void *)(&param), 1, HPL_DOUBLE, HPL_min, COMM);
+      MPI_Allreduce(MPI_IN_PLACE, (void*)(&param), 1, MPI_DOUBLE, MPI_MIN,
+                    COMM);
       break;
     default:
       break;

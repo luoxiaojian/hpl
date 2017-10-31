@@ -230,7 +230,7 @@ void HPL_pdtrsv(HPL_T_grid *GRID, HPL_T_pmat *AMAT) {
    * Replicate last solution block
    */
   if (mycol == colprev)
-    (void)HPL_broadcast((void *)(XR), kbprev, HPL_DOUBLE, rowprev, Ccomm);
+    MPI_Bcast((void *)(XR), kbprev, MPI_DOUBLE, rowprev, Ccomm);
 
   if (Wfr) free(W);
 #ifdef HPL_DETAILED_TIMING

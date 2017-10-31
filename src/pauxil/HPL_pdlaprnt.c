@@ -66,7 +66,7 @@ void HPL_pdlaprnt(const HPL_T_grid* GRID, const int M, const int N,
     jb = N - j;
     jb = Mmin(jb, NB);
     for (h = 0; h < jb; h++) {
-      (void)HPL_barrier(Acomm);
+      MPI_Barrier(Acomm);
 
       for (i = 0; i < M; i += NB) {
         ib = M - i;
@@ -87,14 +87,14 @@ void HPL_pdlaprnt(const HPL_T_grid* GRID, const int M, const int N,
         }
         if (myrow == icurrow) ii += ib;
         icurrow = MModAdd1(icurrow, nprow);
-        (void)HPL_barrier(Acomm);
+        MPI_Barrier(Acomm);
       }
       ii = 0;
       icurrow = IAROW;
     }
     if (mycol == icurcol) jj += jb;
     icurcol = MModAdd1(icurcol, npcol);
-    (void)HPL_barrier(Acomm);
+    MPI_Barrier(Acomm);
   }
   if ((myrow == 0) && (mycol == 0) && (buf)) free(buf);
 }

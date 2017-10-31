@@ -11,9 +11,7 @@ INCdep           = \
 #
 HPL_griobj       = \
    HPL_grid_init.o        HPL_pnum.o             HPL_grid_info.o        \
-   HPL_grid_exit.o        HPL_broadcast.o        HPL_reduce.o           \
-   HPL_all_reduce.o       HPL_barrier.o          HPL_min.o              \
-   HPL_max.o              HPL_sum.o
+   HPL_grid_exit.o
 #
 ## Targets #############################################################
 #
@@ -36,20 +34,6 @@ HPL_grid_info.o        : ../HPL_grid_info.c        $(INCdep)
 	$(CC) -o $@ -c $(CCFLAGS)  ../HPL_grid_info.c
 HPL_grid_exit.o        : ../HPL_grid_exit.c        $(INCdep)
 	$(CC) -o $@ -c $(CCFLAGS)  ../HPL_grid_exit.c
-HPL_broadcast.o        : ../HPL_broadcast.c        $(INCdep)
-	$(CC) -o $@ -c $(CCFLAGS)  ../HPL_broadcast.c
-HPL_reduce.o           : ../HPL_reduce.c           $(INCdep)
-	$(CC) -o $@ -c $(CCFLAGS)  ../HPL_reduce.c
-HPL_all_reduce.o       : ../HPL_all_reduce.c       $(INCdep)
-	$(CC) -o $@ -c $(CCFLAGS)  ../HPL_all_reduce.c
-HPL_barrier.o          : ../HPL_barrier.c          $(INCdep)
-	$(CC) -o $@ -c $(CCFLAGS)  ../HPL_barrier.c
-HPL_min.o              : ../HPL_min.c              $(INCdep)
-	$(CC) -o $@ -c $(CCFLAGS)  ../HPL_min.c
-HPL_max.o              : ../HPL_max.c              $(INCdep)
-	$(CC) -o $@ -c $(CCFLAGS)  ../HPL_max.c
-HPL_sum.o              : ../HPL_sum.c              $(INCdep)
-	$(CC) -o $@ -c $(CCFLAGS)  ../HPL_sum.c
 #
 # ######################################################################
 #

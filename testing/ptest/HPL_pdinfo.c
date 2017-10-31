@@ -541,7 +541,8 @@ void HPL_pdinfo(HPL_T_test *TEST, int *NS, int *N, int *NBS, int *NB,
   /*
    * Check for error on reading input file
    */
-  (void)HPL_all_reduce((void *)(&error), 1, HPL_INT, HPL_max, MPI_COMM_WORLD);
+  MPI_Allreduce(MPI_IN_PLACE, (void *)(&error), 1, MPI_INT, MPI_MAX,
+                MPI_COMM_WORLD);
   if (error) {
     if (rank == 0)
       HPL_pwarn(stderr, __LINE__, "HPL_pdinfo",
@@ -559,8 +560,7 @@ void HPL_pdinfo(HPL_T_test *TEST, int *NS, int *N, int *NBS, int *NB,
   /*
    * Pack information arrays and broadcast
    */
-  (void)HPL_broadcast((void *)(&(TEST->thrsh)), 1, HPL_DOUBLE, 0,
-                      MPI_COMM_WORLD);
+  MPI_Bcast((void *)(&(TEST->thrsh)), 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
   /*
    * Broadcast array sizes
    */
@@ -582,7 +582,7 @@ void HPL_pdinfo(HPL_T_test *TEST, int *NS, int *N, int *NBS, int *NB,
     iwork[13] = *EQUIL;
     iwork[14] = *ALIGN;
   }
-  (void)HPL_broadcast((void *)iwork, 15, HPL_INT, 0, MPI_COMM_WORLD);
+  MPI_Bcast((void *)iwork, 15, MPI_INT, 0, MPI_COMM_WORLD);
   if (rank != 0) {
     *NS = iwork[0];
     *NBS = iwork[1];
@@ -679,7 +679,7 @@ void HPL_pdinfo(HPL_T_test *TEST, int *NS, int *N, int *NBS, int *NB,
       iwork[j] = 2;
     j++;
   }
-  (void)HPL_broadcast((void *)iwork, lwork, HPL_INT, 0, MPI_COMM_WORLD);
+  MPI_Bcast((void *)iwork, lwork, MPI_INT, 0, MPI_COMM_WORLD);
   if (rank != 0) {
     j = 0;
     for (i = 0; i < *NS; i++) {

@@ -59,6 +59,11 @@ double HPL_pdlange(const HPL_T_grid *GRID, const HPL_T_NORM NORM, const int M,
   Ccomm = GRID->col_comm;
   Acomm = GRID->all_comm;
 
+  int Arank, Rrank, Crank;
+  MPI_Comm_rank(Acomm, &Arank);
+  MPI_Comm_rank(Rcomm, &Rrank);
+  MPI_Comm_rank(Ccomm, &Crank);
+
   Mnumroc(mp, M, NB, NB, myrow, 0, nprow);
   Mnumroc(nq, N, NB, NB, mycol, 0, npcol);
 
@@ -77,7 +82,11 @@ double HPL_pdlange(const HPL_T_grid *GRID, const HPL_T_NORM NORM, const int M,
         A += LDA - mp;
       }
     }
-    (void)HPL_reduce((void *)(&v0), 1, HPL_DOUBLE, HPL_max, 0, Acomm);
+    if (Arank == 0)
+      MPI_Reduce(MPI_IN_PLACE, (void *)(&v0), 1, MPI_DOUBLE, MPI_MAX, 0, Acomm);
+    else
+      MPI_Reduce((void *)(&v0), NULL, 1, MPI_DOUBLE, MPI_MAX, 0, Acomm);
+
   } else if (NORM == HPL_NORM_1) {
     /*
      * Find norm_1( A ).
@@ -100,7 +109,12 @@ double HPL_pdlange(const HPL_T_grid *GRID, const HPL_T_NORM NORM, const int M,
       /*
        * Find sum of global matrix columns, store on row 0 of process grid
        */
-      (void)HPL_reduce((void *)(work), nq, HPL_DOUBLE, HPL_sum, 0, Ccomm);
+
+      if (Crank == 0)
+        MPI_Reduce(MPI_IN_PLACE, (void *)(work), nq, MPI_DOUBLE, MPI_SUM, 0,
+                   Ccomm);
+      else
+        MPI_Reduce((void *)(work), NULL, nq, MPI_DOUBLE, MPI_SUM, 0, Ccomm);
       /*
        * Find maximum sum of columns for 1-norm
        */
@@ -113,8 +127,13 @@ double HPL_pdlange(const HPL_T_grid *GRID, const HPL_T_NORM NORM, const int M,
     /*
      * Find max in row 0, store result in process (0,0)
      */
-    if (myrow == 0)
-      (void)HPL_reduce((void *)(&v0), 1, HPL_DOUBLE, HPL_max, 0, Rcomm);
+    if (myrow == 0) {
+      if (Rrank == 0)
+        MPI_Reduce(MPI_IN_PLACE, (void *)(&v0), 1, MPI_DOUBLE, MPI_MAX, 0,
+                   Rcomm);
+      else
+        MPI_Reduce((void *)(&v0), NULL, 1, MPI_DOUBLE, MPI_MAX, 0, Rcomm);
+    }
   } else if (NORM == HPL_NORM_I) {
     /*
      * Find norm_inf( A )
@@ -139,7 +158,11 @@ double HPL_pdlange(const HPL_T_grid *GRID, const HPL_T_NORM NORM, const int M,
       /*
        * Find sum of global matrix rows, store on column 0 of process grid
        */
-      (void)HPL_reduce((void *)(work), mp, HPL_DOUBLE, HPL_sum, 0, Rcomm);
+      if (Rrank == 0)
+        MPI_Reduce(MPI_IN_PLACE, (void *)(work), mp, MPI_DOUBLE, MPI_SUM, 0,
+                   Rcomm);
+      else
+        MPI_Reduce((void *)(work), NULL, mp, MPI_DOUBLE, MPI_SUM, 0, Rcomm);
       /*
        * Find maximum sum of rows for inf-norm
        */
@@ -152,13 +175,18 @@ double HPL_pdlange(const HPL_T_grid *GRID, const HPL_T_NORM NORM, const int M,
     /*
      * Find max in column 0, store result in process (0,0)
      */
-    if (mycol == 0)
-      (void)HPL_reduce((void *)(&v0), 1, HPL_DOUBLE, HPL_max, 0, Ccomm);
+    if (mycol == 0) {
+      if (Crank == 0)
+        MPI_Reduce(MPI_IN_PLACE, (void *)(&v0), 1, MPI_DOUBLE, MPI_MAX, 0,
+                   Ccomm);
+      else
+        MPI_Reduce((void *)(&v0), NULL, 1, MPI_DOUBLE, MPI_MAX, 0, Ccomm);
+    }
   }
   /*
    * Broadcast answer to every process in the grid
    */
-  (void)HPL_broadcast((void *)(&v0), 1, HPL_DOUBLE, 0, Acomm);
+  MPI_Bcast((void *)(&v0), 1, MPI_DOUBLE, 0, Acomm);
 
   return (v0);
 }
